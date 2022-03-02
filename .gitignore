@@ -1,3 +1,8 @@
+# From gatsby startup command
+node_modules/
+.cache/
+public
+
 # Logs
 logs
 *.log

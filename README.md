@@ -1,2 +1,12 @@
-# mydatahack-blog-site-gatsby
-MyDatahack Blog Site with Gatsby.js
+# MyDatahack Blog Site
+
+In progress...
+
+MyDatahack blog site built with Gatsby.js
+
+## Get started ⭐
+
+```bash
+yarn install
+yarn start
+```
