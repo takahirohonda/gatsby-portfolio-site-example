@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { BREAKPOINT } from "../styles/breakpoints";
+import styled from 'styled-components'
+import { BREAKPOINT } from '../styles/breakpoints'
 
 const StyledContentContainer = styled.div`
   padding-right: 15px;
@@ -26,6 +26,6 @@ const StyledContentContainer = styled.div`
   @media (min-width: ${BREAKPOINT.MD}px) {
     width: 750px;
   }
-`;
+`
 
-export { StyledContentContainer as ContentContainer };
+export { StyledContentContainer as ContentContainer }

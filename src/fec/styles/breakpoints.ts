@@ -1,16 +1,16 @@
 enum BREAKPOINT_NAME {
-  XS = "XS",
-  SM = "SM",
-  MD = "MD",
-  LG = "LG",
-  XL = "XL",
-  XXL = "XXL",
-  XXXL = "XXXL",
+  XS = 'XS',
+  SM = 'SM',
+  MD = 'MD',
+  LG = 'LG',
+  XL = 'XL',
+  XXL = 'XXL',
+  XXXL = 'XXXL',
 }
 
 type BreakpointProps = {
-  [key in BREAKPOINT_NAME]: number;
-};
+  [key in BREAKPOINT_NAME]: number
+}
 
 export const BREAKPOINT: BreakpointProps = {
   [BREAKPOINT_NAME.XS]: 0,
@@ -20,4 +20,4 @@ export const BREAKPOINT: BreakpointProps = {
   [BREAKPOINT_NAME.XL]: 1200,
   [BREAKPOINT_NAME.XXL]: 1400,
   [BREAKPOINT_NAME.XXXL]: 1919,
-};
+}
