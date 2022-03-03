@@ -10,6 +10,7 @@
     "clean": "gatsby clean",
     "type-check": "tsc --noEmit",
     "lint": "eslint 'src/**/*.{ts,tsx,js,jsx}' --quiet",
+    "update-eslint-rules": "yarn add --dev file:./eslint-rules",
     "fix-js": "eslint 'src/**/*.{ts,tsx,js,jsx}' --fix --quiet",
     "test": "react-scripts test --watchAll=false --env=jsdom --no-cache --restoreMocks --runInBand --forceExit",
     "test:coverage": "react-scripts test --coverage --watchAll=false --env=jsdom --no-cache --restoreMocks --runInBand --forceExit",
@@ -21,6 +22,9 @@
     "*.{js,jsx,ts,tsx,json}": "pretty-quick --staged",
     "*.{js,jsx,ts,tsx}": [
       "eslint --ext js,jsx,ts,tsx"
+    ],
+    "*.scss": [
+      "stylelint --fix"
     ]
   },
   "husky": {
@@ -75,6 +79,9 @@
     "prettier": "2.2.1",
     "pretty-quick": "3.1.1",
     "react-scripts": "5.0.0",
+    "stylelint-config-standard": "^24.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0",
     "typescript": "^4.5.5"
   }
 }
