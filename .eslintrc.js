@@ -124,18 +124,6 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['src/const/envs.ts'],
-      rules: {
-        'zeller/double-snake-on-feature-flag': 2,
-      },
-    },
-    {
-      files: ['src/graphql/reactiveVariables/*.ts'],
-      rules: {
-        'zeller/reactive-var-naming': 2,
-      },
-    },
-    {
       files: ['**/*.stories.*'],
       rules: {
         'import/no-anonymous-default-export': 'off',
