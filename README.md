@@ -10,7 +10,3 @@ MyDatahack blog site built with Gatsby.js
 yarn install
 yarn start
 ```
-
-## Deploy
-
-Deploying to S3 with CodePipeline.
