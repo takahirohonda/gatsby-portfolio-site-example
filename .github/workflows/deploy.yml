@@ -32,9 +32,9 @@ jobs:
       - name: Deploy to Github page
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
-          ACCESS_TOKEN: ${{ secrets.GIT_PAGE_DEPLOY_MDH_COMPONENT }}
+          ACCESS_TOKEN: ${{ secrets.MDH_BLOG_SITE_GATSBY_DEPLOY }}
           BRANCH: master # The branch the action should deploy to.
           FOLDER: storybook-static # The folder the action should deploy.
           REPOSITORY_NAME: mydatahack/mydatahack.github.io
-          TARGET_FOLDER: mdh-blog-components
+          TARGET_FOLDER: mdh-blog-dev
           CLEAN: true # Automatically remove deleted files from the deploy branch
