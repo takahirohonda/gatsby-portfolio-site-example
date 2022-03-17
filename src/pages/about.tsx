@@ -1,13 +1,18 @@
 import React from 'react'
+
 import { ContentContainer } from '../fec/ContentContainer'
+import { GlobalStyles } from '../styles/globalStyles'
 
 const AboutPage = () => {
   return (
-    <main>
-      <ContentContainer>
-        <h1>Hello About Page...</h1>
-      </ContentContainer>
-    </main>
+    <>
+      <GlobalStyles />
+      <main>
+        <ContentContainer>
+          <h1>Hello About Page...</h1>
+        </ContentContainer>
+      </main>
+    </>
   )
 }
 
