@@ -109,4 +109,11 @@ export const GlobalStyles = createGlobalStyle`
     font-weight: 900;
     src: url('../fonts/Merriweather/Merriweather-BlackItalic.ttf') format('truetype');
   }
+
+  @font-face {
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/FredokaOne/FredokaOne-Regular.ttf');
+  }
 `
