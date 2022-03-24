@@ -1,4 +1,6 @@
-import * as React from 'react'
+import React from 'react'
+
+import { AnimatedTitle } from '../fec/AnimatedTitle'
 
 // styles
 const pageStyles = {
@@ -126,10 +128,10 @@ const links = [
 ]
 
 // markup
-const IndexPage = () => {
+const IndexPage: React.FC = () => {
   return (
     <main style={pageStyles}>
-      <title>Home Page</title>
+      <AnimatedTitle />
       <h1 style={headingStyles}>
         Congratulations
         <br />
