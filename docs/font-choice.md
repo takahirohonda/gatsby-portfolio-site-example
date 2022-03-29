@@ -19,3 +19,14 @@ To use local fonts in gatsby: https://www.gatsbyjs.com/docs/how-to/styling/using
 Actual fonts files are in the `static` folder. Use this folder to add assets outside of the module system (https://www.gatsbyjs.com/docs/how-to/images-and-media/static-folder/).
 
 **Note:** For the animated logo at the top, we use `FredokaOne`: https://fonts.google.com/specimen/Fredoka+One#standard-styles
+
+## Original site uses fonts below:
+
+```css
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Roboto|Lora&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+}
+```
