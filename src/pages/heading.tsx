@@ -1,5 +1,7 @@
 // This works when we build gatsby, but error in VS code ????
 // import { ContentContainer, GlobalStyles, BlogTitle } from '@fec'
+
+// This is for troubleshooting heading.
 import {
   BlogTitle,
   BlogTitle2,
@@ -9,7 +11,7 @@ import {
   StyledBlogTitle,
 } from '../fec'
 
-const AboutPage = () => {
+const HeadingPage = () => {
   return (
     <>
       <GlobalStyles />
@@ -18,10 +20,11 @@ const AboutPage = () => {
           <BlogTitle>
             Building AlexNet with TensorFlow and Running it with AWS SageMaker
           </BlogTitle>
+          <BlogTitle2>This is not working...</BlogTitle2>
         </ContentContainer>
       </main>
     </>
   )
 }
 
-export default AboutPage
+export default HeadingPage
