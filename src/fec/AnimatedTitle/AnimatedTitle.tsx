@@ -1,5 +1,6 @@
 import React from 'react'
-import { motion } from 'framer-motion'
+
+import { StyledBlogTitle } from './AnimatedTitle.styled'
 
 const bounceAnimate = {
   y: [0, 0, 0, -30, 0, -15],
@@ -25,7 +26,7 @@ const bounceTransition = {
   ],
 }
 export const AnimatedTitle: React.VFC = () => (
-  <motion.p animate={bounceAnimate} transition={bounceTransition}>
-    hello
-  </motion.p>
+  <StyledBlogTitle animate={bounceAnimate} transition={bounceTransition}>
+    MyDatahack
+  </StyledBlogTitle>
 )
