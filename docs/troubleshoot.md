@@ -11,3 +11,7 @@ module.exports = {
   pathPrefix: '/reponame',
 }
 ```
+
+## 2. Fonts weren't loading correctly
+
+In the global style, we had to update the src url with `fonts/FredokaOne/FredokaOne-Regular.ttf` instead of `../fonts/...` or `/fonts/`. Then, the app start getting the fonts with the right url path including the prefixed path. Otherwise, it was trying to load the fonts from base URL.
