@@ -14,7 +14,7 @@ export const FredokaOne = css`
 
 // Use for both Lato & Merriweather
 export const RegularFontWeight = css`
-  font-weight: 500;
+  font-weight: 400;
 `
 
 export const BoldFontWeight = css`
