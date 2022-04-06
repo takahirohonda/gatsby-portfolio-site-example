@@ -2,12 +2,17 @@ import styled from 'styled-components'
 
 import { BREAKPOINT } from '../styles'
 
+const StyledOuterContentContainer = styled.div`
+  display: flex;
+  justify-content: center;
+`
+
 const StyledContentContainer = styled.div`
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-
+  width: 100%;
   @media (min-width: ${BREAKPOINT.XXL}px) {
     width: 1504px;
   }
@@ -27,10 +32,8 @@ const StyledContentContainer = styled.div`
   @media (min-width: ${BREAKPOINT.SM}px) {
     width: 750px;
   }
-
-  @media (min-width: ${BREAKPOINT.XS}px) {
-    width: 100%;
-  }
 `
 
-export { StyledContentContainer as ContentContainer }
+export const ContentContainer: React.FC = ({ children }) => (
+  <StyledContentContainer>{children}</StyledContentContainer>
+)

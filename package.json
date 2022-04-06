@@ -16,7 +16,8 @@
     "test:coverage": "react-scripts test --coverage --watchAll=false --env=jsdom --no-cache --restoreMocks --runInBand --forceExit",
     "test:dev": "react-scripts test --watchAll=false --env=jsdom --no-cache --restoreMocks",
     "test:watch": "react-scripts test --env=jsdom --no-cache",
-    "test:changed": "react-scripts test --env=jsdom --no-cache -o --silent"
+    "test:changed": "react-scripts test --env=jsdom --no-cache -o --silent",
+    "ymlToJson": "node ./scripts/yamlToJson.js"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,json}": "pretty-quick --staged",
@@ -50,7 +51,8 @@
     "gatsby-transformer-sharp": "^4.9.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "styled-components": "^5.3.3"
+    "styled-components": "^5.3.3",
+    "yml": "^1.0.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.14.1",
