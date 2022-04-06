@@ -1,5 +1,6 @@
 /** @type {import('gatsby').GatsbyConfig} */
 module.exports = {
+  pathPrefix: '/mdh-blog-dev',
   siteMetadata: {
     title: `MyDatahack Blog`,
     siteUrl: `https://mydatahack.github.io/mdh-blog-dev`,
