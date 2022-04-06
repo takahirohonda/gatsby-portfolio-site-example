@@ -69,7 +69,7 @@ const variants = {
 }
 const flipTransition = {
   x: { type: 'spring', stiffness: 100 },
-  default: { duration: 1 },
+  default: { duration: 0.5 },
 }
 
 export interface FlipCardProps {

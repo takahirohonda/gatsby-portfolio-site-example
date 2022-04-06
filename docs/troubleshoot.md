@@ -4,7 +4,7 @@
 
 https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/how-gatsby-works-with-github-pages/
 
-We need to add `pathPrefix` to `gatsby-config.js`
+We need to add `pathPrefix` to `gatsby-config.js`. Then, use this build script, `gatsby build --prefix-paths`.
 
 ```js
 module.exports = {
