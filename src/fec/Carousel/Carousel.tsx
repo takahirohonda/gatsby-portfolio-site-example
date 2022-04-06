@@ -14,7 +14,7 @@ export const Carousel: React.VFC<CarouselProps> = ({ content }) => {
   return (
     <StyledCarouselUl>
       {content.map((node) => (
-        <StyledCarouselLi key={node?.toString()}>{node}</StyledCarouselLi>
+        <StyledCarouselLi key={Math.random()}>{node}</StyledCarouselLi>
       ))}
     </StyledCarouselUl>
   )
