@@ -17,8 +17,7 @@ const StyledButton = styled.button`
 
 export const RandomiseButton: React.VFC = () => {
   const onClickHandler = () => {
-    // eslint-disable-next-line
-    location.reload()
+    window.location.reload()
   }
   return (
     <StyledButton role="button" onClick={() => onClickHandler()}>
