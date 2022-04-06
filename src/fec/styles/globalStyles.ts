@@ -16,7 +16,7 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
-    src: url('/fonts/Lato/Lato-Regular.ttf') format('truetype');
+    src: url('fonts/Lato/Lato-Regular.ttf') format('truetype');
   }
 
   @font-face {
@@ -114,6 +114,6 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'Fredoka One';
     font-style: normal;
     font-weight: 400;
-    src: url('/fonts/FredokaOne/FredokaOne-Regular.ttf');
+    src: url('fonts/FredokaOne/FredokaOne-Regular.ttf');
   }
 `
