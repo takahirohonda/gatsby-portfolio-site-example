@@ -37,7 +37,7 @@ jobs:
 
       - name: Build Static Site
         run: |
-          yarn build
+          yarn build:ci
 
       # - name: Deploy to Github page
       #   uses: JamesIves/github-pages-deploy-action@3.7.1
