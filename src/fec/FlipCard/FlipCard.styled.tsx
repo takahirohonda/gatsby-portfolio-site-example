@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import styled from 'styled-components'
 
-import { TextRegular } from '../Typography'
+import { TextRegularNoSizeChangeOnMobile } from '../Typography'
 
 // This controls the size of the flip card
 export const StyledCard = styled.div`
@@ -46,7 +46,8 @@ export const StyledFlipCardBack = styled(motion.div)`
 `
 
 export const StyledP = styled.p`
-  ${TextRegular}
+  ${TextRegularNoSizeChangeOnMobile}
+  font-size: 1rem;
   margin: 10px;
 `
 

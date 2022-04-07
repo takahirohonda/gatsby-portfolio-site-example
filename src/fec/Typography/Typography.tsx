@@ -10,3 +10,8 @@ export const TextRegular = css`
     font-size: 1rem;
   }
 `
+
+export const TextRegularNoSizeChangeOnMobile = css`
+  ${LatoRegular};
+  font-size: 1rem;
+`
