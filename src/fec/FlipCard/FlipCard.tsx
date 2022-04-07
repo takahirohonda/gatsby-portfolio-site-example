@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import { useInView } from 'react-intersection-observer'
 
 import {
   StyledCard,
@@ -38,6 +39,13 @@ export const FlipCard: React.VFC<FlipCardProps> = ({
   usage,
 }) => {
   const [showBack, setShowBack] = useState(false)
+  const [ref, inView] = useInView()
+
+  useEffect(() => {
+    if (!inView) {
+      setShowBack(false)
+    }
+  }, [inView])
 
   const onClickHandler = () => {
     setShowBack(!showBack)
@@ -46,9 +54,11 @@ export const FlipCard: React.VFC<FlipCardProps> = ({
   return (
     <StyledCard onClick={onClickHandler}>
       <StyledFlipCardContainer
+        ref={ref}
         animate={showBack ? 'showBack' : 'showFront'}
         variants={variants}
         transition={flipTransition}
+        whileDrag={showFrontAnimate}
       >
         <StyledFlipCardFront>
           <StyledP>{word}</StyledP>
