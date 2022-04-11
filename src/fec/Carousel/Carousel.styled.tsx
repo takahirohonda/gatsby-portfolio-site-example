@@ -28,4 +28,5 @@ export const StyledCarouselUl = styled.ul`
 
 export const StyledCarouselLi = styled.li`
   scroll-snap-align: center;
+  scroll-snap-stop: always;
 `

@@ -1,0 +1,16 @@
+samples:
+  # Just from daily activities, like interactive with other people or writing, reading news etc
+  - phrase: I'm in good spirits.
+    note: spirits is plural.
+
+  - phrase: Everyone was talking at the top of their lungs.
+    note: Everyone is treated as singular, but lung becomes plural as in their lungs.
+
+  - phrase: I wrote a diary.
+    note: write a diary is a correct English expression
+
+  - phrase: a year and a half
+    note: Not year and half, we need an article in both
+
+  - phrase: playing the long game
+    note: Not a long game, the long game, meaning following a long-term strategy

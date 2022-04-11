@@ -8,6 +8,18 @@ words:
     definition: large amount
     usage: Many a little makes a mickle
 
+  - word: superfluous
+    definition: unnecessary, especially through being more than enough.
+    usage: The purchaser should avoid asking for superfluous information.
+
+  - word: ides
+    definition: the 15th of day of the March
+    usage: Beware the ides of March.
+
+  - word: soothsayer
+    definition: fortune teller
+    usage: A soothsayer warns Caesar to Beware the ides of March.
+
   # From various podcast
   - word: vestibular
     definition: relating to vestibule, particularly that of the inner ear, or more generally to the sense of balance.
@@ -48,7 +60,7 @@ words:
 
   - word: veneer
     definition: wrath beneath a shallow veneer. Attractive appearance that disguises one's true feelings. A thin decorative cover on the wood. Timber veneer is a real timber, sliced very finely and then glued to a substrate to make it look like a real timber.
-    usage: Timber veneer
+    usage: wrath beneath a shallow veneer.
 
   - word: crucible
     definition: 1. a vessel in which metals or other substances are headed to a very high temperature. 2. a severe test 3. a place or situation in which concentrated forces interact to cause or influence change or development.
