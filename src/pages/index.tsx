@@ -1,9 +1,9 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 import { BlogTitle, ContentContainer, GlobalStyles } from '../fec'
 import { AnimatedTitle } from '../fec/AnimatedTitle'
-import { FlipCards } from '../fec/FlipCard'
-import { StyledContainerForFlipCard, StyledSpace } from '../fec/Space'
+import { StyledSpace } from '../fec/Space'
 
 const IndexPage: React.FC = () => {
   return (
@@ -15,10 +15,7 @@ const IndexPage: React.FC = () => {
           <StyledSpace />
           <AnimatedTitle />
           <StyledSpace />
-          <StyledContainerForFlipCard>
-            <FlipCards />
-          </StyledContainerForFlipCard>
-          <StyledSpace />
+          <Link to="/words">Go to words flip cards</Link>
         </ContentContainer>
       </main>
     </>

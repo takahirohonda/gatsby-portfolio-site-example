@@ -1,4 +1,4 @@
-import words from '../../data/words.json'
+import words from '../../../data/words.json'
 import { Carousel } from '../Carousel'
 import { FlipCard } from './FlipCard'
 

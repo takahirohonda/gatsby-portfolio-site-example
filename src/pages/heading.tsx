@@ -2,14 +2,7 @@
 // import { ContentContainer, GlobalStyles, BlogTitle } from '@fec'
 
 // This is for troubleshooting heading.
-import {
-  BlogTitle,
-  BlogTitle2,
-  ContentContainer,
-  GlobalStyles,
-  HEADING_TAG,
-  StyledBlogTitle,
-} from '../fec'
+import { BlogTitle, BlogTitle2, ContentContainer, GlobalStyles } from '../fec'
 
 const HeadingPage = () => {
   return (
