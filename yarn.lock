@@ -2085,10 +2085,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@mdhnpm/react-mdh-blog-components@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@mdhnpm/react-mdh-blog-components/-/react-mdh-blog-components-1.6.0.tgz#a1ddb7fa32ee24c42858de550152f84223b9c041"
-  integrity sha512-c1tsVTv9ouQFB0gtpnstc0cM270oSYkRk3Ml3nLKY//sc/WVpXDp429rYEWDYqkrlRwdD6TbhekXlNyX4LrObA==
+"@mdhnpm/react-mdh-blog-components@^1.6.1":
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/@mdhnpm/react-mdh-blog-components/-/react-mdh-blog-components-1.6.1.tgz#94d276e8073f19b7c1e8a2b93f8d635ed48f72fe"
+  integrity sha512-CnODb8paDfMrucqN6TKyVyEWPkB5rHP7gu/pkVbH2onFcjB4JjrAwvjYdEO9aejyIqFMKSn1OmS/7M9qVRI82Q==
   dependencies:
     framer-motion "^4.1.17"
     ramda "^0.28.0"
