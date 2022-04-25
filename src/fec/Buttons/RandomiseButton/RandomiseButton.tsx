@@ -15,9 +15,14 @@ const StyledButton = styled.button`
   }
 `
 
-export const RandomiseButton: React.VFC = () => {
+interface RandomiseButtonProps {
+  onClick: () => void
+}
+export const RandomiseButton: React.VFC<RandomiseButtonProps> = ({
+  onClick,
+}) => {
   const onClickHandler = () => {
-    window.location.reload()
+    onClick()
   }
   return (
     <StyledButton role="button" onClick={() => onClickHandler()}>

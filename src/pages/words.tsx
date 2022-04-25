@@ -1,10 +1,7 @@
 import React from 'react'
-import { FlipCardsVocab } from '@mdhnpm/react-mdh-blog-components'
 
-import words from '../data/words.json'
+import { FlipCards } from '../components/FlipCards'
 import { ContentContainer, GlobalStyles } from '../fec'
-import { RandomiseButton } from '../fec/Buttons'
-import { StyledContainerForFlipCard } from '../fec/Space'
 
 const WordsPage: React.FC = () => {
   return (
@@ -12,10 +9,7 @@ const WordsPage: React.FC = () => {
       <GlobalStyles />
       <main>
         <ContentContainer>
-          <StyledContainerForFlipCard>
-            <FlipCardsVocab content={words.words} />
-            <RandomiseButton />
-          </StyledContainerForFlipCard>
+          <FlipCards />
         </ContentContainer>
       </main>
     </>

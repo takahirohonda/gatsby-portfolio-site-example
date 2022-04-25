@@ -2085,15 +2085,16 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@mdhnpm/react-mdh-blog-components@^1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@mdhnpm/react-mdh-blog-components/-/react-mdh-blog-components-1.3.0.tgz#c3ac98cf9184066119d871d8a9e4e0757a41a207"
-  integrity sha512-AwxVoDo0az1wJd4YKG1Ri6ZfVkin7iXORZm5TpnW8JnpsLEAszilIhZGhoH2ur5k4Ullz0qrgcJ8flls9rvaHQ==
+"@mdhnpm/react-mdh-blog-components@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@mdhnpm/react-mdh-blog-components/-/react-mdh-blog-components-1.4.0.tgz#28195af857cde34c500da28db1e5603202147a30"
+  integrity sha512-ECAZ6boCEFAeLm4DdJAx1X3jBcycgOemUILSr8NnX6x3wXndsXC5WXrAXPY3Kqsj1H1A94y+y4QzTAr4ePgwaQ==
   dependencies:
     framer-motion "^4.1.17"
     ramda "^0.28.0"
     react "^17.0.2"
     react-dom "^17.0.2"
+    react-intersection-observer "^9.0.0"
     reflexbox "^4.0.6"
     styled-components "^5.3.3"
     web-vitals "^2.1.0"
@@ -13185,6 +13186,11 @@ react-intersection-observer@^8.33.1:
   version "8.33.1"
   resolved "https://registry.yarnpkg.com/react-intersection-observer/-/react-intersection-observer-8.33.1.tgz#8e6442cac7052ed63056e191b7539e423e7d5c64"
   integrity sha512-3v+qaJvp3D1MlGHyM+KISVg/CMhPiOlO6FgPHcluqHkx4YFCLuyXNlQ/LE6UkbODXlQcLOppfX6UMxCEkUhDLw==
+
+react-intersection-observer@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/react-intersection-observer/-/react-intersection-observer-9.0.0.tgz#8d4c7ed51f98fb4cfdd80b35c8fdecd929f3a683"
+  integrity sha512-rVJ9ZTPnHk/rgMsNmWWLLz9DeUil8+2cR/wG2RAoOlJihmuxAfMVGnPYfy17kuKA1imCDfqIHjsy56fwGbtlTQ==
 
 react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"
