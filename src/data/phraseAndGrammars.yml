@@ -20,3 +20,6 @@ phrasesAndGrammars:
 
   - phrase: give my two cents
     note: If I can give my two cents, ... Same as give my two cents' worth
+
+  - phrase: These letters are a great source of comfort.
+    note: a great source of is a collective and can use with plural verb.

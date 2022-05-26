@@ -1,0 +1,21 @@
+chordProgression:
+  - pattern: ii - V - I
+    note:
+
+  - pattern: ii7(b5) - V7(b9) - i
+    note:
+
+  - pattern: I - vi - ii - V
+    note:
+
+  - pattern: i - vi7(b5) - ii7(b5) - V
+    note:
+
+  - pattern: iii - VI - ii - V
+    note: iii replaces I
+
+  - pattern: I - i#dim - ii - V
+    note: i#dim replaces VI7
+
+  - pattern: I - IV7 - iii - VI7
+    note: cycles into ii - V - I
