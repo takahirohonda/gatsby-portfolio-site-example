@@ -23,3 +23,6 @@ phrasesAndGrammars:
 
   - phrase: These letters are a great source of comfort.
     note: a great source of is a collective and can use with plural verb.
+
+  - phrase: Analogy in the formula of A:B::C:D
+    note: old is to hot as night is to day, or old is to hot what night is to day

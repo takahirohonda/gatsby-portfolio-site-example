@@ -3,7 +3,7 @@
     { "phrase": "I'm in good spirits.", "note": "spirits is plural." },
     {
       "phrase": "Everyone was talking at the top of their lungs.",
-      "note": "Everyone is treated as singular, but lung is usually used as plural."
+      "note": "Everyone is treated as singular, but lung becomes plural as in their lungs."
     },
     {
       "phrase": "I wrote a diary.",
@@ -28,6 +28,10 @@
     {
       "phrase": "These letters are a great source of comfort.",
       "note": "a great source of is a collective and can use with plural verb."
+    },
+    {
+      "phrase": "Analogy in the formula of A:B::C:D",
+      "note": "old is to hot as night is to day, or old is to hot what night is to day"
     }
   ]
 }
