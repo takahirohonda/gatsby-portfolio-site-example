@@ -1,21 +1,22 @@
 {
-  "processors": ["stylelint-processor-styled-components"],
-  "extends": ["stylelint-config-standard", "stylelint-config-styled-components"],
-  "syntax": "scss",
+  "plugins": [
+    "stylelint-order"
+  ],
+  "processors": [
+    "stylelint-processor-styled-components"
+  ],
+  "extends": [
+    "stylelint-config-recommended",
+    "stylelint-config-styled-components",
+    "stylelint-config-idiomatic-order"
+  ],
   "rules": {
-    "declaration-empty-line-before": [
-      "always",
-      {
-        except: [
-          "after-declaration",
-          "first-nested",
-        ],
-        ignore: [
-          "after-comment",
-        ],
-      }
-    ],
-    "declaration-colon-newline-after": null,
-    "declaration-colon-space-after": "always-single-line"
+    "declaration-property-unit-allowed-list": {
+      "font-size": "rem",
+      "line-height": "rem",
+      "/^animation/": "s",
+      "width": ["%", "px"],
+      "height": ["%", "px"]
+    }
   }
 }
