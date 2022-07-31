@@ -6,28 +6,28 @@ import { TextRegularNoSizeChangeOnMobile } from '../../Typography'
 // This controls the size of the flip card
 export const StyledCard = styled.div`
   position: relative;
+  display: flex;
   width: 340px;
   height: 280px;
-  perspective: 500px;
-  display: flex;
   justify-content: center;
+  perspective: 500px;
 `
 
 export const StyledFlipCardContainer = styled(motion.div)`
   position: absolute;
   width: 300px;
   height: 100%;
-  transform-style: preserve-3d;
-  color: #2a2727;
-  border-radius: 20px;
   border: solid 1px #c7c7c7;
+  border-radius: 20px;
+  color: #2a2727;
+  transform-style: preserve-3d;
 `
 
 export const StyledFlipCardFront = styled(motion.div)`
   position: absolute;
+  display: flex;
   width: 100%;
   height: 100%;
-  display: flex;
   align-items: center;
   justify-content: center;
   backface-visibility: hidden;
@@ -35,14 +35,14 @@ export const StyledFlipCardFront = styled(motion.div)`
 
 export const StyledFlipCardBack = styled(motion.div)`
   position: absolute;
+  display: flex;
   width: 100%;
   height: 100%;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transform: rotateY(180deg);
   backface-visibility: hidden;
+  transform: rotateY(180deg);
 `
 
 export const StyledP = styled.p`

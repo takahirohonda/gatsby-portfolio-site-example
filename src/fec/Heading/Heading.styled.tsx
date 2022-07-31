@@ -3,7 +3,7 @@ import { css } from 'styled-components'
 import { BREAKPOINT, LatoRegular } from '../styles'
 
 export const H1Style = css`
-  ${LatoRegular};
+  ${LatoRegular}
   font-size: 32px;
   line-height: 1.25;
 
@@ -15,7 +15,7 @@ export const H1Style = css`
 
 // This is the blog title style
 export const H2Style = css`
-  ${LatoRegular};
+  ${LatoRegular}
   font-size: 24px;
   line-height: 1.1;
   @media screen and (min-width: ${BREAKPOINT.SM}px) {
@@ -24,7 +24,7 @@ export const H2Style = css`
 `
 
 export const H3Style = css`
-  ${LatoRegular};
+  ${LatoRegular}
   font-size: 22px;
   line-height: 1.1;
 
@@ -35,7 +35,7 @@ export const H3Style = css`
 `
 
 export const H4Style = css`
-  ${LatoRegular};
+  ${LatoRegular}
   font-size: 20px;
   line-height: 1.1;
 
