@@ -38,7 +38,7 @@ export const H4Style = css`
   line-height: 1.1;
   ${LatoRegular}
 
-  @media screen and (min-width: ${BREAKPOINT.XS}px) {
+  @media screen and (min-width: ${BREAKPOINT.SM}px) {
     font-size: 1.375rem;
     line-height: 1.1;
   }
