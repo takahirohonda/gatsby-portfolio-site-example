@@ -46,9 +46,9 @@ export const StyledFlipCardBack = styled(motion.div)`
 `
 
 export const StyledP = styled.p`
-  ${TextRegularNoSizeChangeOnMobile}
-  font-size: 1rem;
   margin: 10px;
+  font-size: 1rem;
+  ${TextRegularNoSizeChangeOnMobile}
 `
 
 export const StyledHeading = styled(StyledP)`

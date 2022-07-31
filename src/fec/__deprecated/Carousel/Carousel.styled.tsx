@@ -6,8 +6,8 @@ const squareDimension = css`
 `
 
 export const StyledSquare = styled.div`
-  ${squareDimension}
   background-color: ${(props) => props.color};
+  ${squareDimension}
 `
 
 // This controls the width of the carousel container.
