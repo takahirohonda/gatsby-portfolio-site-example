@@ -1,18 +1,23 @@
 {
-  "processors": ["stylelint-processor-styled-components"],
-  "extends": ["stylelint-config-standard", "stylelint-config-styled-components"],
+  "processors": [
+    "stylelint-processor-styled-components"
+  ],
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-styled-components"
+  ],
   "syntax": "scss",
   "rules": {
     "declaration-empty-line-before": [
       "always",
       {
-        except: [
+        "except": [
           "after-declaration",
-          "first-nested",
+          "first-nested"
         ],
-        ignore: [
-          "after-comment",
-        ],
+        "ignore": [
+          "after-comment"
+        ]
       }
     ],
     "declaration-colon-newline-after": null,
