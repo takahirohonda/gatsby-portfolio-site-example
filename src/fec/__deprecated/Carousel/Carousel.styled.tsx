@@ -6,20 +6,22 @@ const squareDimension = css`
 `
 
 export const StyledSquare = styled.div`
-  ${squareDimension}
   background-color: ${(props) => props.color};
+  ${squareDimension}
 `
 
 // This controls the width of the carousel container.
 export const StyledCarouselUl = styled.ul`
   display: flex;
+  overflow: scroll;
+  width: 350px;
+
+  height: 400px;
+
   align-items: center;
   justify-content: left;
   list-style-type: none;
   scroll-snap-type: x mandatory;
-  width: 350px;
-  height: 400px;
-  overflow: scroll;
 
   &::-webkit-scrollbar {
     display: none;

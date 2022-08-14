@@ -1,26 +1,6 @@
 {
   "words": [
     {
-      "word": "ostensibly",
-      "definition": "as appears or is stated to be true, though not necessarily so, different from apparently slightly",
-      "usage": "The party secretary resigned, ostensibly from ill health"
-    },
-    {
-      "word": "mickle",
-      "definition": "large amount",
-      "usage": "Many a little makes a mickle"
-    },
-    {
-      "word": "superfluous",
-      "definition": "unnecessary, especially through being more than enough.",
-      "usage": "The purchaser should avoid asking for superfluous information."
-    },
-    {
-      "word": "behemoth",
-      "definition": "a beast from the biblical Book of Job, chaos-monster created by God. also used to describe a big business entity.",
-      "usage": "Shoppers are now more loyal to their local shops than to faceless behemoths."
-    },
-    {
       "word": "vestibular",
       "definition": "relating to vestibule, particularly that of the inner ear, or more generally to the sense of balance.",
       "usage": "the vestibular system"
@@ -164,6 +144,32 @@
       "word": "titular",
       "definition": "(1) holding or constituting a purely formal position or title without authority. (2) relating to or denoted by a title.",
       "usage": "The queen is titular head of the Church of England."
+    },
+    {
+      "word": "interdict",
+      "definition": "authoritative prohibition, intercept and prevent the movement of something.",
+      "usage": "Society will never interdict sex."
+    },
+    {
+      "word": "hegemony",
+      "definition": "leadership or dominance, especially by one state or social group over others.",
+      "usage": "political hegemony"
+    },
+    { "word": "nebulous", "definition": "hazy", "usage": "nebulous future" },
+    {
+      "word": "assiduous",
+      "definition": "showing great care and perseverance",
+      "usage": "The foundation has fostered this delusion assiduously"
+    },
+    {
+      "word": "apocryphal",
+      "definition": "doubtful authenticity",
+      "usage": "Apocryphal tale"
+    },
+    {
+      "word": "bromide",
+      "definition": "a trite statement that is intended to soothe or placate",
+      "usage": "feel-good bromides create the illusion of problem-solving"
     },
     {
       "word": "edify",
