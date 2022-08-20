@@ -10,7 +10,7 @@ import firstLine from '../../data/firstLine.json'
 import phrase from '../../data/phraseAndGrammars.json'
 import quotes from '../../data/quotes.json'
 import trivia from '../../data/trivia.json'
-import words from '../../data/words.json'
+import { words } from '../../data/words.json'
 import { RandomiseButton } from '../../fec/Buttons'
 import { StyledContainerForFlipCard } from '../../fec/Space'
 import {
@@ -39,9 +39,7 @@ export const FlipCards: React.VFC = () => {
         />
       </StyledContainerForFlipCard>
       <StyledContainerForFlipCard>
-        {selectedOption === VOCABULARY && (
-          <FlipCardsVocab content={words.words} />
-        )}
+        {selectedOption === VOCABULARY && <FlipCardsVocab content={words} />}
         {selectedOption === PHRASES_AND_GRAMMARS && (
           <FlipCardsPhrasesAndGrammars content={phrase.phrasesAndGrammars} />
         )}

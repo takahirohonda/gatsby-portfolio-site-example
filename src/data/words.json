@@ -241,6 +241,10 @@
       "definition": "any of numerous small slender long-tailed parrots",
       "usage": "a flock of paraquet"
     },
-    { "word": "tapestry", "definition": null, "usage": "the rococo tapestries" }
+    {
+      "word": "tapestry",
+      "definition": "a heavy handwoven reversible textile used for hangings, curtains, and upholstery and characterized by complicated pictorial designs.",
+      "usage": "the rococo tapestries"
+    }
   ]
 }
