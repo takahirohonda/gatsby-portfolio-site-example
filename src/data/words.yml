@@ -145,6 +145,22 @@ words:
     definition: doubtful authenticity
     usage: Apocryphal tale
 
+  - word: reverie
+    definition: a state of being pleasantly lost in one's thoughts; a daydream.
+    usage: eyes drifted into a reverie
+
+  - word: belligerent
+    definition: hostile and aggressive.
+    usage: the mood at the meeting was belligerent
+
+  - word: archiasm
+    definition: a thing that is very old or old-fashioned, especially an archaic word or style of language or art.
+    usage: conscious archaisms inspired by French harpsichord music
+
+  - word: perogative
+    definition: a right or privilege exclusive to a particular individual or class.
+    usage: in some countries, higher education is predominantly the prerogative of the rich
+
   - word: bromide
     definition: a trite statement that is intended to soothe or placate
     usage: feel-good bromides create the illusion of problem-solving
@@ -169,3 +185,30 @@ words:
   - word: truculent
     definition: eager, quick to argue or fight
     usage: Funny or truculent?
+
+  # Neromantic
+
+  - word: solar plexus
+    definition: the pit of the stomach
+    usage: punch at my solar plexus
+
+  - word: echelon
+    definition: an arrangement of a body of troops with its units each somewhat to the left or right of the one in the rear like a series of steps
+    usage: geese flying in echelon
+
+  - word: balmy
+    definition: warm, tropical
+    usage: balmy weather
+
+  - word: bevelled
+    definition: having a sloping edge rather than a squared one.
+    usage: a bevelled mirror
+
+  - word: paraquet/ parrakeet
+    definition: any of numerous small slender long-tailed parrots
+    usage: a flock of paraquet
+
+  # Because the night
+  - word: tapestry
+    definition:
+    usage: the rococo tapestries
