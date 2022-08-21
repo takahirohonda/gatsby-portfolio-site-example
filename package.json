@@ -51,11 +51,6 @@
       "/node_modules/@mdhnpm/(?!react-mdh-blog-components)"
     ]
   },
-  "release": {
-    "branches": [
-      "main"
-    ]
-  },
   "dependencies": {
     "@mdhnpm/react-mdh-blog-components": "^2.2.1",
     "@mdx-js/mdx": "^1.6.22",
