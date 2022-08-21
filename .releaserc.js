@@ -36,5 +36,5 @@ module.exports = {
     // commit changelog and version changes
     updateRepoPlugin,
   ],
-  branches: ['main'],
+  branches: ['main', { name: 'some-branch-name', prerelease: true }],
 }
