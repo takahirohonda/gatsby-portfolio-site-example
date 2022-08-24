@@ -1,3 +1,11 @@
+## [1.1.3](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.1.2...v1.1.3) (2022-08-24)
+
+
+### Bug Fixes
+
+* **ci:** ci update - finished testing ([293f867](https://github.com/mydatahack/mydatahack-blog-site-gatsby/commit/293f867948fdc1af03ae4ec4fe43efe4ced69fe3))
+* **ci:** testing hte effect on git config by github page deploy action ([63f1a58](https://github.com/mydatahack/mydatahack-blog-site-gatsby/commit/63f1a58a728f84e2dc72a9dde49191c011568360))
+
 ## [1.1.2](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.1.1...v1.1.2) (2022-08-24)
 
 
