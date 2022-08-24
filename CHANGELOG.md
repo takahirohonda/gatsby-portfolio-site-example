@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.1.1...v1.1.2) (2022-08-24)
+
+
+### Bug Fixes
+
+* **ci:** printing out remote git url ([d4f09e9](https://github.com/mydatahack/mydatahack-blog-site-gatsby/commit/d4f09e9eb1c9e45abbc8c613afeec96637a77069))
+
 ## [1.1.1](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.1.0...v1.1.1) (2022-08-24)
 
 
