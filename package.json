@@ -1,7 +1,6 @@
 {
   "name": "mydatahack-blog-site-gatsby",
   "version": "1.0.1",
-  "repository": "git@github.com:mydatahack/mydatahack-blog-site-gatsby.git",
   "private": true,
   "scripts": {
     "develop": "gatsby develop",
