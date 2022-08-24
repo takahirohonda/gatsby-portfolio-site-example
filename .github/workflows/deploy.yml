@@ -38,6 +38,10 @@ jobs:
       #     REPOSITORY_NAME: mydatahack/mydatahack.github.io
       #     TARGET_FOLDER: mdh-blog-dev
       #     CLEAN: true # Automatically remove deleted files from the deploy branch
+
+      - name: Get Repo Url
+        run: |
+          git config --get remote.origin.url
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v2
         env:
