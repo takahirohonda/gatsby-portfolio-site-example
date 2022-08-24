@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.1.0...v1.1.1) (2022-08-24)
+
+
+### Bug Fixes
+
+* **ci:** testing debug mode take -3 ([c468369](https://github.com/mydatahack/mydatahack-blog-site-gatsby/commit/c468369f76e93f3cea560d04bbf8218509eab019))
+* **ci:** testing semantic release debug mode - take 2 ([ec00e3c](https://github.com/mydatahack/mydatahack-blog-site-gatsby/commit/ec00e3c727fc9e890a7687aee74213199b603bb7))
+* **ci:** testing semantic-release debug mode ([8924bcc](https://github.com/mydatahack/mydatahack-blog-site-gatsby/commit/8924bccd93ffdd4c8cc66beecf6ce5b8a3c603c2))
+
 # [1.1.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.0.0...v1.1.0) (2022-08-21)
 
 
