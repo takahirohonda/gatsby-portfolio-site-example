@@ -9,7 +9,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "release": "semantic-release --debug",
+    "release": "semantic-release --debug=true",
     "standard-version": "standard-version",
     "commit": "cz",
     "commitlint": "commitlint --from=HEAD~1",
