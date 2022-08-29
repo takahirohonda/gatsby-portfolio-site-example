@@ -1,5 +1,5 @@
 import { mockAllIsIntersecting } from 'react-intersection-observer/test-utils'
-import { render, screen } from '@testing-library/react'
+import { render, screen, waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 
 import {
@@ -37,13 +37,18 @@ describe('<FlipCards />', () => {
   beforeEach(() => {
     mockAllIsIntersecting(true)
   })
-  it('should render default selection', () => {
+  it('should render default selection', async () => {
     renderFlipCards()
+
     expect(
       (screen.getByRole('option', { name: VOCABULARY }) as HTMLOptionElement)
         .selected
     ).toBe(true)
-    expect(screen.getByTestId('flipCardVocab')).toBeVisible()
+
+    waitFor(() => {
+      expect(screen.getByTestId('flipCardVocab')).toBeVisible()
+    })
+
     expect(
       screen.queryByTestId('flipCardPhrasesAndGrammars')
     ).not.toBeInTheDocument()
@@ -51,18 +56,21 @@ describe('<FlipCards />', () => {
     expect(screen.queryByTestId('flipCardQuote')).not.toBeInTheDocument()
   })
 
-  it.each(testDataProvider)('should select', (data) => {
+  it.each(testDataProvider)('should select', async (data) => {
     renderFlipCards()
     userEvent.selectOptions(
       screen.getByTestId('flipcard-select'),
       screen.getByRole('option', { name: data.select })
     )
-
-    expect(
-      (screen.getByRole('option', {
-        name: data.select,
-      }) as HTMLOptionElement).selected
-    ).toBe(true)
+    waitFor(() => {
+      expect(
+        (
+          screen.getByRole('option', {
+            name: data.select,
+          }) as HTMLOptionElement
+        ).selected
+      ).toBe(true)
+    })
 
     const nonSelected = testDataProvider
       .map((dataProvider) => dataProvider.selectedDataId)
@@ -70,7 +78,9 @@ describe('<FlipCards />', () => {
         (dataSelectedDataId) => dataSelectedDataId !== data.selectedDataId
       )
 
-    expect(screen.getByTestId(data.selectedDataId)).toBeVisible()
+    waitFor(() => {
+      expect(screen.getByTestId(data.selectedDataId)).toBeVisible()
+    })
     nonSelected.map((nonSelectedDataId) =>
       expect(screen.queryByTestId(nonSelectedDataId)).not.toBeInTheDocument()
     )

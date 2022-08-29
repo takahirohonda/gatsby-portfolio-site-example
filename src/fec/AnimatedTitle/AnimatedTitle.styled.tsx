@@ -1,8 +1,17 @@
 import { motion } from 'framer-motion'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
-import { H3Style } from '../Heading'
-import { FredokaOne } from '../styles'
+import { BREAKPOINT, FredokaOne, LatoRegular } from '../styles'
+
+export const H3Style = css`
+  font-size: 1.375rem;
+  line-height: 1.1;
+  ${LatoRegular}
+  @media screen and (min-width: ${BREAKPOINT.SM}px) {
+    font-size: 1.5rem;
+    line-height: 1.1;
+  }
+`
 
 export const StyledBlogTitle = styled(motion.h3)`
   color: red;
