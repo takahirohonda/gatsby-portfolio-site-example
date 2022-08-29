@@ -52,6 +52,10 @@
       "/node_modules/@mdhnpm/(?!react-mdh-blog-components)"
     ]
   },
+  "resolutions": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "dependencies": {
     "@mdhnpm/react-mdh-blog-components": "^2.3.1",
     "@mdx-js/mdx": "^2.1.3",
