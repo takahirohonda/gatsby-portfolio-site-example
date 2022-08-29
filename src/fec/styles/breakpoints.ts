@@ -21,8 +21,9 @@ export const BREAKPOINT: BreakpointProps = {
   [BREAKPOINT_NAME.XXL]: 1920, // desktop - extra wide
 }
 
-export type BreakpointsProp = Array<string> &
-  { [key in BREAKPOINT_NAME]?: string }
+export type BreakpointsProp = Array<string> & {
+  [key in BREAKPOINT_NAME]?: string
+}
 
 const breakpoints: BreakpointsProp = Object.values(BREAKPOINT).map(
   (b) => `${b / 16}em`

@@ -59,9 +59,11 @@ describe('<FlipCards />', () => {
     )
 
     expect(
-      (screen.getByRole('option', {
-        name: data.select,
-      }) as HTMLOptionElement).selected
+      (
+        screen.getByRole('option', {
+          name: data.select,
+        }) as HTMLOptionElement
+      ).selected
     ).toBe(true)
 
     const nonSelected = testDataProvider

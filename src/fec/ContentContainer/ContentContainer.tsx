@@ -1,8 +1,9 @@
 import styled from 'styled-components'
 
 import { BREAKPOINT } from '../styles'
+import { PropsWithOnlyChildren } from '../utils/commonTypes'
 
-const StyledOuterContentContainer = styled.div`
+export const StyledOuterContentContainer = styled.div`
   display: flex;
   justify-content: center;
 `
@@ -34,6 +35,6 @@ const StyledContentContainer = styled.div`
   }
 `
 
-export const ContentContainer: React.FC = ({ children }) => (
+export const ContentContainer = ({ children }: PropsWithOnlyChildren) => (
   <StyledContentContainer>{children}</StyledContentContainer>
 )
