@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.1.3...v1.2.0) (2022-09-03)
+
+
+### Features
+
+* **infra:** add blog infra before making posts ([dac4749](https://github.com/mydatahack/mydatahack-blog-site-gatsby/commit/dac47499654978db2b7b72b95cfdd2729dd46401))
+
 ## [1.1.3](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.1.2...v1.1.3) (2022-08-24)
 
 
