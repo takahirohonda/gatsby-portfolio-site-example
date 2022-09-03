@@ -2,11 +2,18 @@
 module.exports = {
   pathPrefix: '/mdh-blog-dev',
   siteMetadata: {
-    title: `MyDatahack Blog`,
-    siteUrl: `https://mydatahack.github.io/mdh-blog-dev`,
+    title: 'MyDatahack Blog',
+    siteUrl: 'https://mydatahack.github.io/mdh-blog-dev',
+    description:
+      'MyDatahack blog - web development, life, arts, universe and everything',
+    image: 'https://mydatahack.github.io/mdh-blog-dev/icons/icon-512x512.png',
+  },
+  graphqlTypegen: {
+    typesOutputPath: 'src/types/gatsby-types.d.ts',
   },
   plugins: [
     'gatsby-plugin-styled-components',
+    'gatsby-plugin-react-helmet',
     // {
     //   resolve: 'gatsby-plugin-google-analytics',
     //   options: {

@@ -14,24 +14,25 @@ const StyledContentContainer = styled.div`
   margin-right: auto;
   margin-left: auto;
   width: 100%;
-  @media (min-width: ${BREAKPOINT.XXL}px) {
-    width: 1504px;
-  }
 
-  @media (min-width: ${BREAKPOINT.XL}px) {
-    width: 1370px;
-  }
-
-  @media (min-width: ${BREAKPOINT.LG}px) {
-    width: 1170px;
+  @media (min-width: ${BREAKPOINT.SM}px) {
+    width: 750px;
   }
 
   @media (min-width: ${BREAKPOINT.MD}px) {
     width: 970px;
   }
 
-  @media (min-width: ${BREAKPOINT.SM}px) {
-    width: 750px;
+  @media (min-width: ${BREAKPOINT.LG}px) {
+    width: 1170px;
+  }
+
+  @media (min-width: ${BREAKPOINT.XL}px) {
+    width: 1370px;
+  }
+
+  @media (min-width: ${BREAKPOINT.XXL}px) {
+    width: 1504px;
   }
 `
 
