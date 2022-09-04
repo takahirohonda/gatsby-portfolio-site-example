@@ -28,19 +28,6 @@ module.exports = {
         icon: 'src/images/icon.png', // This will create favicons.
       },
     },
-    {
-      resolve: 'gatsby-plugin-mdx',
-      options: {
-        gatsbyRemarkPlugins: [
-          {
-            resolve: 'gatsby-remark-images',
-            options: {
-              maxWidth: 1200,
-            },
-          },
-        ],
-      },
-    },
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
@@ -54,10 +41,34 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'pages',
-        path: './src/pages/',
+        name: 'posts',
+        path: './src/posts/',
       },
-      __key: 'pages',
+      __key: 'posts',
+    },
+    {
+      resolve: 'gatsby-plugin-page-creator',
+      options: {
+        path: `${__dirname}/src/posts`,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-mdx',
+      options: {
+        gatsbyRemarkPlugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 1200,
+            },
+          },
+        ],
+        defaultLayouts: {
+          default: require.resolve(
+            `${__dirname}/src/components/PostLayout/DefaultLayout.tsx`
+          ),
+        },
+      },
     },
   ],
 }
