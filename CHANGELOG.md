@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.2.0...v1.3.0) (2022-09-04)
+
+
+### Features
+
+* **mdx:** add mdx blog functionality ([0d71460](https://github.com/mydatahack/mydatahack-blog-site-gatsby/commit/0d714605fe84631a488a236915ec137461fa47a5))
+
 # [1.2.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.1.3...v1.2.0) (2022-09-03)
 
 
