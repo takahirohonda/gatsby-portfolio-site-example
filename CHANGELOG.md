@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.3.0...v1.3.1) (2022-10-10)
+
+
+### Bug Fixes
+
+* **upgrade node version for this repo and upgrade dfr:** upgrade node version for this repo ([32088ac](https://github.com/mydatahack/mydatahack-blog-site-gatsby/commit/32088acc7355d596cb2f2e3594f50be999e4c44c))
+
 # [1.3.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.2.0...v1.3.0) (2022-09-04)
 
 
