@@ -1,16 +1,1 @@
-{
-  "quotes": [
-    {
-      "quote": "You wanted a banana but what you got was a gorilla holding the banana and the entire jungle.",
-      "by": "Joe Armstrong"
-    },
-    {
-      "quote": "It's not the people who vote that count, it's the people who count the votes.",
-      "by": "Joseph Stalin"
-    },
-    {
-      "quote": "nowing your own darkness is the best method for dealing with the darknesses of other people.",
-      "by": "Karl Jung"
-    }
-  ]
-}
+{"quotes":[{"quote":"You wanted a banana but what you got was a gorilla holding the banana and the entire jungle.","by":"Joe Armstrong"},{"quote":"It's not the people who vote that count, it's the people who count the votes.","by":"Joseph Stalin"},{"quote":"nowing your own darkness is the best method for dealing with the darknesses of other people.","by":"Karl Jung"}]}

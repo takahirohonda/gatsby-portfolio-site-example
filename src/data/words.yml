@@ -95,10 +95,6 @@ words:
     definition: (1) very careful about the accuracy and details. (2) very concerned about cleanliness.
     usage: there might be a certain fastidious courtesy in dying without a trace.
 
-  - word: catatonia
-    definition: A form of schizophrenia in which a person experiences periods of unconsciousness or overactivity.
-    usage: Idaho drew back from catatonic forgetfulness.
-
   - word: interloper
     definition: a person who interferes in someone else's affairs.
     usage: Yet he was an interloper here.
@@ -212,3 +208,64 @@ words:
   - word: tapestry
     definition: a heavy handwoven reversible textile used for hangings, curtains, and upholstery and characterized by complicated pictorial designs.
     usage: the rococo tapestries
+
+  # Oct 2022
+  - word: pallid
+    definition: pale, insipid
+    usage: his face, with its wrinkled, pallid complexion.
+  
+  - word: gratuitous
+    definition: (1) uncalled for, (2) done free of charge
+    usage: (1) gratuitous violence, (2) gratuitous legal advice
+  
+  - word: capricious
+    definition: moody, unpredictable
+    usage: a capricious climate
+  
+  - word: incorrigible
+    definition: not able to be changed or reformed.
+    usage: James, you're incorrigible
+  
+  - word: pariah
+    definition: an outcast
+    usage: They were treated as social pariahs.
+  
+  - word: assauge
+    definition: (1) make an unpleasant feeling less intense. (2) satisfy
+    usage: pray assauges hunger
+  
+  - word: mausoleum
+    definition: a stately or impressive building hosing a tomb or group of tombs.
+    usage: The cathedral was built in 1517 as a royal mausoleum.
+  
+  - word: self-effacing
+    definition: not claiming attention for oneself; retiring and modest.
+    usage: His demeanour was self-effacing, gracious, and polite.
+
+  - word: peregrination
+    definition: A journey, especially a long or meandering one.
+    usage: She kept Aunt Lisa company on her peregrinations.
+  
+  - word: zephyr
+    definition: (1) A soft gentle breeze, (2) The god of the West Wind (in Bible).
+    usage: Zephyr in the sky at night I wonder
+  
+  - word: phalanx
+    definition: A bod of troops or police officers standing or moving in close formation.
+    usage: Six hundred marchers set off, led by a phalanx of police.
+
+  - word: remiss
+    definition: negligent
+    usage: It would be remiss of me not to pass on that information. I have been remiss.
+  
+  - word: confer
+    definition: grant
+    usage: You conferred overlong with their new ambassadors.
+  
+  - word: parsimonious
+    definition: Very unwilling to spend money or use resources.
+    usage: Even the parsimonious Joe paid for drinks all round.
+  
+  - word: sophomoric
+    definition: pretentious or juvenile
+    usage: Your question is sophomoric.
