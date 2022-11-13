@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.3.1...v1.4.0) (2022-11-13)
+
+
+### Features
+
+* **data:** move flipcard data into subfolders ([6a61843](https://github.com/mydatahack/mydatahack-blog-site-gatsby/commit/6a61843d94a84eb09c3fd97867a5359a5c4ad041))
+
 ## [1.3.1](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.3.0...v1.3.1) (2022-10-10)
 
 
