@@ -4,7 +4,7 @@ const path = require('path')
 const yml = require('yaml')
 const glob = require('glob')
 
-const ymlFileGlob = path.join(__dirname, '../src/data/*.yml')
+const ymlFileGlob = path.join(__dirname, '../src/data/flip-cards/*.yml')
 
 glob(ymlFileGlob, (er, files) => {
   files.forEach((f) => {
