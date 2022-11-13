@@ -6,11 +6,11 @@ import {
   QuoteCards,
 } from '@mdhnpm/react-mdh-blog-components'
 
-import firstLine from '../../data/firstLine.json'
-import phrase from '../../data/phraseAndGrammars.json'
-import quotes from '../../data/quotes.json'
-import trivia from '../../data/trivia.json'
-import { words } from '../../data/words.json'
+import firstLine from '../../data/flip-cards/firstLine.json'
+import phrase from '../../data/flip-cards/phraseAndGrammars.json'
+import quotes from '../../data/flip-cards/quotes.json'
+import trivia from '../../data/flip-cards/trivia.json'
+import { words } from '../../data/flip-cards/words.json'
 import { RandomiseButton } from '../../fec/Buttons'
 import { StyledContainerForFlipCard } from '../../fec/Space'
 import {
