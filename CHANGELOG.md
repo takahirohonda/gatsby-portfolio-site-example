@@ -1,3 +1,15 @@
+# [1.7.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.6.0...v1.7.0) (2022-11-14)
+
+
+### Bug Fixes
+
+* **deprecated:** remove deprecated folder ([855ce16](https://github.com/mydatahack/mydatahack-blog-site-gatsby/commit/855ce16cd0969b834f3393718a89320e5c0faa2b))
+
+
+### Features
+
+* **words:** add new vocabs ([097eb3c](https://github.com/mydatahack/mydatahack-blog-site-gatsby/commit/097eb3c430d568ea52ed67c9b88c1e18de6db0b9))
+
 # [1.6.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.5.0...v1.6.0) (2022-11-14)
 
 
