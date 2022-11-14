@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.4.0...v1.5.0) (2022-11-14)
+
+
+### Features
+
+* **add 365 days album:** add 365 days album ([0fe89df](https://github.com/mydatahack/mydatahack-blog-site-gatsby/commit/0fe89df39925efd1a8b3463ed2849877f97acebf))
+
 # [1.4.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.3.1...v1.4.0) (2022-11-13)
 
 
