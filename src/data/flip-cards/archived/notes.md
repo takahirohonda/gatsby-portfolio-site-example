@@ -10,3 +10,7 @@ A figure of speech in which a word or phrase literally denoting one kind of obje
 # Phrases
 
 at sea: meaning confused
+
+# Misc
+
+IBS --> Irritable Bowel Syndrome
