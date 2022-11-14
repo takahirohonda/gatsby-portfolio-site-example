@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.5.0...v1.6.0) (2022-11-14)
+
+
+### Features
+
+* **updates:** add 365 jazz album post ([c5b0a2f](https://github.com/mydatahack/mydatahack-blog-site-gatsby/commit/c5b0a2f43c7c3db11606aaf05afaa10bc1fda918))
+
 # [1.5.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.4.0...v1.5.0) (2022-11-14)
 
 
