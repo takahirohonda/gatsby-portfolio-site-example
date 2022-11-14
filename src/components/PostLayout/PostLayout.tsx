@@ -8,14 +8,9 @@ interface PostLayoutProps {
 }
 
 export const PostLayout = ({ children, pageContext }: PostLayoutProps) => {
-  // const { description } = pageContext?.frontmatter
-
-  const title = pageContext.frontmatter?.title
-  const description = pageContext.frontmatter?.description
-
-  console.log(
-    `checking frontmatter value: ${JSON.stringify(pageContext.frontmatter)}`
-  )
+  // When we have error here for undefined title, we need to stop and start gatsby.
+  // then, it will register the values in frontmatter
+  const { title, description } = pageContext.frontmatter
 
   return (
     <Layout siteTitle={title} description={description}>
