@@ -8,7 +8,14 @@ interface PostLayoutProps {
 }
 
 export const PostLayout = ({ children, pageContext }: PostLayoutProps) => {
-  const { title, description } = pageContext.frontmatter
+  // const { description } = pageContext?.frontmatter
+
+  const title = pageContext.frontmatter?.title
+  const description = pageContext.frontmatter?.description
+
+  console.log(
+    `checking frontmatter value: ${JSON.stringify(pageContext.frontmatter)}`
+  )
 
   return (
     <Layout siteTitle={title} description={description}>

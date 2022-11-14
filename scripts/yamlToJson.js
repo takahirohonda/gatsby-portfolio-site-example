@@ -6,7 +6,11 @@ const glob = require('glob')
 
 const ymlFileGlob = path.join(__dirname, '../src/data/flip-cards/*.yml')
 
-glob(ymlFileGlob, (er, files) => {
+glob(ymlFileGlob, (error, files) => {
+  if (error) {
+    console.error(`Error has occured: ${error}`)
+  }
+
   files.forEach((f) => {
     console.log(`Converting ${f}`)
     fs.writeFileSync(
