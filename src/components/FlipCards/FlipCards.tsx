@@ -20,6 +20,7 @@ import {
   TRIVIA,
   VOCABULARY,
 } from './const'
+import { RandomiseButtonContainer } from './FlipCards.styled'
 import { FlipCardSelect } from './FlipCardSelect'
 
 export const FlipCards: React.VFC = () => {
@@ -50,8 +51,9 @@ export const FlipCards: React.VFC = () => {
         {selectedOption === TRIVIA && (
           <FlipCardsQAndA content={trivia.trivia} />
         )}
-
-        <RandomiseButton onClick={onClickHandler} />
+        <RandomiseButtonContainer>
+          <RandomiseButton onClick={onClickHandler} />
+        </RandomiseButtonContainer>
       </StyledContainerForFlipCard>
     </>
   )
