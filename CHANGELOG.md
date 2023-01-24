@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.7.0...v1.8.0) (2023-01-24)
+
+
+### Features
+
+* **365:** add more albums ([431cd80](https://github.com/mydatahack/mydatahack-blog-site-gatsby/commit/431cd80f64feee16013cd7b0c513f0ac622a93ae))
+
 # [1.7.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.6.0...v1.7.0) (2022-11-14)
 
 
