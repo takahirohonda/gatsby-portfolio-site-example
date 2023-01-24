@@ -1,4 +1,4 @@
-import { BREAKPOINT } from '@fec/styles/breakpoints'
+import { BREAKPOINT } from '@mdhnpm/react-mdh-blog-components'
 import styled from 'styled-components'
 
 export const RandomiseButtonContainer = styled.div`
