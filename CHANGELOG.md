@@ -1,3 +1,11 @@
+## [1.8.1](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.8.0...v1.8.1) (2023-01-24)
+
+
+### Bug Fixes
+
+* **flipcard:** update frontend componenet lib version and margin for randomise button ([7178cee](https://github.com/mydatahack/mydatahack-blog-site-gatsby/commit/7178cee656e7d515b273a42ca90481a69983532a))
+* **update fed component version and import breakpoint:** update fed component version ([fbfef34](https://github.com/mydatahack/mydatahack-blog-site-gatsby/commit/fbfef34126ef95a04fb3abca76d1fb31759b8f85))
+
 # [1.8.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.7.0...v1.8.0) (2023-01-24)
 
 
