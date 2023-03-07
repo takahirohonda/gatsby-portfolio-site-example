@@ -38,3 +38,16 @@ phrasesAndGrammars:
 
   - phrase: Loose (all) sense of time, loose track of time
     note: no 'the' in front of 'time', but 'stand the test of the time' has 'the'
+
+  - phrase: a call to arms
+    note: arms are plural without any article.
+  - phrase: going down in history
+    note: no article required in front of history.
+  - phrase: stay indoors
+    note: indoor is adjective and indoors is adverb. Stay indoor is incorrect.
+  - phrase: make art
+    note: art is singular. No article is required.
+  - phrase: out of the blue
+    note: the is required in front of blue.
+  - phrase: take a liking to someone.
+    note: a is required before liking.
