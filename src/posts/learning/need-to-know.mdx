@@ -1,0 +1,44 @@
+---
+date: 2023-03-16
+title: Need to know
+description: Things we need to know as a dev
+slug: /learning/need-to-know
+---
+
+import { PostLayout } from "../../components/PostLayout";
+
+export default ({ children, pageContext }) => (
+  <PostLayout pageContext={pageContext}>{children}</PostLayout>
+);
+
+## 1. Difference between Incoming and Current change when we merge or rebase.
+<details>
+<summary>
+1. `git pull origin master`
+</summary>
+
+*Current changes*
+
+Changes on your current feature branch.
+
+*Incoming changes*
+
+Changes you are pulling from i.e the master branch
+</details>
+
+
+<details>
+
+<summary>
+2. `git pull origin master --rebase`
+</summary>
+During rebase your feature branch changes are applied on top of the commits that are already there in master branch.
+
+*Current changes*
+
+Changes on the master branch.
+
+*Incoming changes*
+
+Changes on the feature branch.
+</details>
