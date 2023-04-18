@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.9.0...v1.10.0) (2023-03-17)
+
+
+### Features
+
+* **note:** add more info ([c8ca5d4](https://github.com/mydatahack/mydatahack-blog-site-gatsby/commit/c8ca5d4c9199fa4462ef2cb071051a3ca2d48efa))
+
 # [1.9.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.8.0...v1.9.0) (2023-03-11)
 
 
