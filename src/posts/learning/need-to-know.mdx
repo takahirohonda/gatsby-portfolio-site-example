@@ -52,3 +52,19 @@ Changes on the feature branch.
 
 There are 6 falsey values in JavaScript: `undefined`, `null`, `NaN`, `0` and `""` (empty string) and `false`.
 </details>
+
+## 3. Destructuring
+
+<details>
+<summary>
+  What is the console output?
+  ```ts
+  const context = { a: 1, b: 2, c: 3 };
+  const { a, ...contextObj } = context;
+  console.log(contextObj);
+  ```
+</summary>
+
+We can destucture an object with selected values and return the rest with a named object.
+`contextObj` will be { b: 2, c: 3 }
+</details>
