@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.10.0...v1.11.0) (2023-04-20)
+
+
+### Features
+
+* Add gatsby-remark-prismjs and add markdown page ([04777f4](https://github.com/mydatahack/mydatahack-blog-site-gatsby/commit/04777f4b5866caae9db530df276a807caa076ec3))
+
 # [1.10.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.9.0...v1.10.0) (2023-03-17)
 
 
