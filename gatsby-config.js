@@ -53,6 +53,28 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        gfm: true, // GitHub flavoured Markdown mode
+        plugins: [
+          {
+            resolve: 'gatsby-remark-prismjs',
+            options: {
+              classPrefix: 'language-',
+              inlineCodeMarker: `>`,
+              showLineNumbersGlobal: false,
+              noInlineHighlight: false,
+            },
+          },
+        ],
+      },
+      defaultLayouts: {
+        default: require.resolve(
+          `${__dirname}/src/components/PostLayout/DefaultLayout.tsx`
+        ),
+      },
+    },
+    {
       resolve: 'gatsby-plugin-mdx',
       options: {
         gatsbyRemarkPlugins: [
@@ -77,22 +99,6 @@ module.exports = {
             `${__dirname}/src/components/PostLayout/DefaultLayout.tsx`
           ),
         },
-      },
-    },
-    {
-      resolve: 'gatsby-transformer-remark',
-      options: {
-        plugins: [
-          {
-            resolve: 'gatsby-remark-prismjs',
-            options: {
-              classPrefix: 'language-',
-              inlineCodeMarker: `>`,
-              showLineNumbersGlobal: false,
-              noInlineHighlight: false,
-            },
-          },
-        ],
       },
     },
   ],

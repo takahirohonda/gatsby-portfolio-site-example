@@ -5,4 +5,6 @@ description: checking md file
 slug: /test/check
 ---
 
-# Hello world
+# Creating page with md file
+
+Using md file to create a page
