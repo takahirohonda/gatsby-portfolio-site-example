@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.11.0...v1.12.0) (2023-04-21)
+
+
+### Features
+
+* Update prismjs style ([b408b57](https://github.com/mydatahack/mydatahack-blog-site-gatsby/commit/b408b57e34c99f33b61dbe2882d582b1a921acaf))
+
 # [1.11.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.10.0...v1.11.0) (2023-04-20)
 
 
