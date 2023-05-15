@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.12.0...v1.13.0) (2023-05-15)
+
+
+### Features
+
+* **need-to-know:** add media queries in need to know post ([c0112f0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/commit/c0112f04134825bb8e85e3c6b4037bcfc6ffd11e))
+
 # [1.12.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.11.0...v1.12.0) (2023-04-21)
 
 
