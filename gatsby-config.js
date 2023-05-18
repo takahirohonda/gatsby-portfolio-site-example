@@ -25,7 +25,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        icon: 'src/images/icon.png', // This will create favicons.
+        icon: 'src/images/icon-circle.png', // This will create favicons.
       },
     },
     'gatsby-plugin-sharp',
