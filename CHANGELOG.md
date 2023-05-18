@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.13.0...v1.14.0) (2023-05-18)
+
+
+### Features
+
+* **favicon:** add new circle favicon ([5782d5a](https://github.com/mydatahack/mydatahack-blog-site-gatsby/commit/5782d5adc1ffd57ce99d69239e5933bb3653ad40))
+
 # [1.13.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.12.0...v1.13.0) (2023-05-15)
 
 
