@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.14.0...v1.15.0) (2023-06-12)
+
+
+### Features
+
+* Add archieved words to flip card ([2235504](https://github.com/mydatahack/mydatahack-blog-site-gatsby/commit/2235504c3d79e90b9caa00823a3d39da29cc2cba))
+
 # [1.14.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.13.0...v1.14.0) (2023-05-18)
 
 
