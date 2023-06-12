@@ -1,5 +1,5 @@
 # I think I got these words. No longer including in the flip card.
-words:
+wordsArchived:
   # Just from daily activities, like interactive with other people or writing, reading news etc
   - word: soothsayer
     definition: fortune teller
@@ -45,12 +45,12 @@ words:
     
   # Neromantic
   - word: Mercator projection
-    definition:
-    usage:
+    definition: to be filled
+    usage: to be filled
   
   - word: Social darwinism
-    definition:
-    usage:
+    definition: to be filled
+    usage: to be filled
 
   # From life
   - word: annular

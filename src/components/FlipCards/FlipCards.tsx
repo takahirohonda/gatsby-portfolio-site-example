@@ -11,6 +11,7 @@ import phrase from '../../data/flip-cards/phraseAndGrammars.json'
 import quotes from '../../data/flip-cards/quotes.json'
 import trivia from '../../data/flip-cards/trivia.json'
 import { words } from '../../data/flip-cards/words.json'
+import { wordsArchived } from '../../data/flip-cards/words-archived.json'
 import { RandomiseButton } from '../../fec/Buttons'
 import { StyledContainerForFlipCard } from '../../fec/Space'
 import {
@@ -19,13 +20,16 @@ import {
   QUOTES,
   TRIVIA,
   VOCABULARY,
+  VOCABULARY_2,
 } from './const'
 import { RandomiseButtonContainer } from './FlipCards.styled'
+import { SelectOptions } from './FlipCards.types'
 import { FlipCardSelect } from './FlipCardSelect'
 
 export const FlipCards: React.VFC = () => {
   const [reRender, setReRender] = useState(false)
-  const [selectedOption, setSelectedOption] = useState(VOCABULARY)
+  const [selectedOption, setSelectedOption] =
+    useState<SelectOptions>(VOCABULARY)
 
   const onClickHandler = () => {
     setReRender(!reRender)
@@ -41,6 +45,9 @@ export const FlipCards: React.VFC = () => {
       </StyledContainerForFlipCard>
       <StyledContainerForFlipCard>
         {selectedOption === VOCABULARY && <FlipCardsVocab content={words} />}
+        {selectedOption === VOCABULARY_2 && (
+          <FlipCardsVocab content={wordsArchived} />
+        )}
         {selectedOption === PHRASES_AND_GRAMMARS && (
           <FlipCardsPhrasesAndGrammars content={phrase.phrasesAndGrammars} />
         )}
