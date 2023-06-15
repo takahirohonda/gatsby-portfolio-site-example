@@ -3,7 +3,7 @@ import {
   PHRASES_AND_GRAMMARS,
   QUOTES,
   TRIVIA,
-  VOCABULARY,
+  WORDS_2022,
   WORDS_2023,
 } from './const'
 
@@ -12,5 +12,5 @@ export type SelectOptions =
   | typeof PHRASES_AND_GRAMMARS
   | typeof QUOTES
   | typeof TRIVIA
-  | typeof VOCABULARY
+  | typeof WORDS_2022
   | typeof WORDS_2023
