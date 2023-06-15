@@ -1,4 +1,4 @@
-words:
+words2022:
   # - word:
   #   definition:
   #   usage:
@@ -291,71 +291,61 @@ words:
     definition: a being responsible for the creation of the universe. In Platonic philosophy, the Maker or Creator of the world.
     usage: He was something else, a demiurge who stood next to God.
 
-# Jan 2023
+  # I think I got these words. No longer including in the flip card.
+  # It used to be in wordsArchived:
+  
+  - word: soothsayer
+    definition: fortune teller
+    usage: A soothsayer warns Caesar to Beware the ides of March.
 
-  - word: emanation
-    definition: (1) source, origin (2) being or force which is the manifestation of God
-    usage: in an effort to retain the various emanation of his things and himself
-  - word: deracinated
-    definition: uprooted from one's natural geographical, social, or cultural environment.
-    usage: deracinated details of Zampano's life
-  - word: reams
-    definition: ream means 500 (formerly 480) sheets of paper. reams of means a lot of.
-    usage: there were reams and reams of it
-  - word: mauled
-    definition: treated roughly, handled roughly.
-    usage: before I'd pick up another mauled scrap
-  - word: Braille
-    definition: a form of written language for blind people. Book is Brailled. It seems to be capital.
-    usage: Almost half of the books he owned were in Braille.
-  - word: graphomaniac
-    definition: a compulsive writer
-    usage: He's a graphomaniac.
-  - word: adroit
-    definition: clever, skillful
-    usage: He was adroit at avoiding tax.
-  - word: preadamite
-    definition: an inhabitant of the earth before Adam.
-    usage: considering the practically preadamite history of the house
-  - word: desultory
-    definition: disappointing in progress, performance, or quality
-    usage: and turned the farmboy's temper wolfish, the housewife's desultory
-  - word: sycophant
-    definition: a person who acts obsequiously towards someone important in order to gain advantage.
-    usage: because he is high-ranking, he's surrounded by sycophants
+  - word: ides
+    definition: the 15th of day of the month
+    usage: Beware the ides of March.
 
-# March 2023
+  - word: ostensibly
+    definition: as appears or is stated to be true, though not necessarily so, different from apparently slightly
+    usage: The party secretary resigned, ostensibly from ill health
 
-  - word: nomenclature
-    definition: the body or system of names used in a particular specialist field.
-    usage: Private nomenclature seems to develop in tight set-upon circles.
-  - word: aphonia
-    definition: the loss of the ability to vocalize
-    usage: Her near aphonia should have alarmed any adept teacher  
-  - word: vicissitude
-    definition: a change of circumstances or fortune, typically one that is unwelcome or unpleasant.
-    usage: Vicissitude in Karen's life affected her sensitivity in space.
-  - word: spool
-    definition: a cylindrical device on which film, magnetic tape, thread, or other flexible materials can be wound; a reel.
-    usage: four spools of fishing line.
-  - word: cavalier
-    definition: showing a lack of proper concern; offhand.
-    usage: Wax was more cavalier, claiming to have felt no fear.
-  - word: portentious
-    definition: attempting to impress by affecting greater importance or merit than is actually possessed.
-    usage: It descended into potentious philosophising
-  - word: clasp
-    definition: a device with interlocking parts used for fastening things together.
-    usage: and the clasp was in front.
-  - word: knead
-    definition: to work and press into a mass with or as if with the hands
-    usage: One hand kneading her dress, the other hand under her dress needing herself.
-  - word: ruse
-    definition: an action intended to deceive someone; a trick.
-    usage: Despite the triumph of Jacob's ruse
-  - word: bastion
-    definition: an institution, place, or person strongly maintaining particular principles, attitudes, or activities.
-    usage: Radically altered its previous meaning as bastion or strong gold or safe.
-  - word: basinet
-    definition: a light, close-fitting steel helmet, typically having a visor.
-    usage: basinet and bassinet are different words.
+  - word: mickle
+    definition: large amount
+    usage: Many a little makes a mickle
+
+  - word: superfluous
+    definition: unnecessary, especially through being more than enough.
+    usage: The purchaser should avoid asking for superfluous information.
+
+  - word: behemoth
+    definition: a beast from the biblical Book of Job, chaos-monster created by God. also used to describe a big business entity.
+    usage: Shoppers are now more loyal to their local shops than to faceless behemoths.
+
+  - word: catatonia
+    definition: A form of schizophrenia in which a person experiences periods of unconsciousness or overactivity.
+    usage: Idaho drew back from catatonic forgetfulness.
+
+  # Purple Mountain Album
+  - word: substratum
+    definition: (1) a foundation or basis of something, (2) an underlying layer or substance, in particular a layer of rock or soil beneath the surface of the ground.
+    usage: There is a broad substratum of truth in her theory. The plant will grow very rapidly and send out runners above the substratum.
+
+  - word: schadenfreude
+    definition: pleasure derived by someone from another person's misfortune.
+    usage: A business that thrives on schadenfreude.
+
+  # Ammonite
+  - word: vat
+    definition: a large tank or tub to hold liquid, especially in industry
+    usage: a vat of hot tar
+    
+  # Neromantic
+  - word: Mercator projection
+    definition: to be filled
+    usage: to be filled
+  
+  - word: Social darwinism
+    definition: to be filled
+    usage: to be filled
+
+  # From life
+  - word: annular
+    definition: of, relating to, or forming a ring
+    usage: What happens on June 10, 2021 will be an annular solar eclipse. an annular skin lesion.

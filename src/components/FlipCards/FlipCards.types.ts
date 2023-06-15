@@ -4,7 +4,7 @@ import {
   QUOTES,
   TRIVIA,
   VOCABULARY,
-  VOCABULARY_2,
+  WORDS_2023,
 } from './const'
 
 export type SelectOptions =
@@ -13,4 +13,4 @@ export type SelectOptions =
   | typeof QUOTES
   | typeof TRIVIA
   | typeof VOCABULARY
-  | typeof VOCABULARY_2
+  | typeof WORDS_2023
