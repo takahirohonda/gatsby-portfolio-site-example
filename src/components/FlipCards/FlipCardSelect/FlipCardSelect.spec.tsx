@@ -1,6 +1,6 @@
 import { fireEvent, render, screen } from '@testing-library/react'
 
-import { OPTIONS } from '../const'
+import { OPTIONS, WORDS_2022 } from '../const'
 import { FlipCardSelect } from '.'
 
 const mockOnChange = jest.fn()
@@ -8,7 +8,7 @@ const mockOnChange = jest.fn()
 describe('<FlipCardSelect />', () => {
   it('should render correctly', () => {
     render(
-      <FlipCardSelect selectedOption={OPTIONS[1]} onChange={mockOnChange} />
+      <FlipCardSelect selectedOption={WORDS_2022} onChange={mockOnChange} />
     )
 
     expect(screen.getByLabelText('Select Category:')).toBeVisible()

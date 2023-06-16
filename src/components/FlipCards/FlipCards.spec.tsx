@@ -7,7 +7,7 @@ import {
   PHRASES_AND_GRAMMARS,
   QUOTES,
   TRIVIA,
-  VOCABULARY,
+  WORDS_2022,
 } from './const'
 import { FlipCards } from './FlipCards'
 
@@ -41,7 +41,7 @@ describe('<FlipCards />', () => {
     renderFlipCards()
 
     expect(
-      (screen.getByRole('option', { name: VOCABULARY }) as HTMLOptionElement)
+      (screen.getByRole('option', { name: WORDS_2022 }) as HTMLOptionElement)
         .selected
     ).toBe(true)
 
