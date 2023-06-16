@@ -1,3 +1,15 @@
+# [1.16.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.15.0...v1.16.0) (2023-06-16)
+
+
+### Bug Fixes
+
+* **flipcard type:** fix the type error on FlipCard ([2eae592](https://github.com/mydatahack/mydatahack-blog-site-gatsby/commit/2eae592cbfc56537628b60e64204160c359521ec))
+
+
+### Features
+
+* **flipcard:** updated to words per year ([cdc06d2](https://github.com/mydatahack/mydatahack-blog-site-gatsby/commit/cdc06d27e73b85ff30fdaea6bf1c86d21a7426d6))
+
 # [1.15.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.14.0...v1.15.0) (2023-06-12)
 
 
