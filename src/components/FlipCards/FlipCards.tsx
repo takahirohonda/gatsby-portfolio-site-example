@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import {
   FlipCardsPhrasesAndGrammars,
   FlipCardsQAndA,
@@ -7,6 +7,7 @@ import {
 } from '@mdhnpm/react-mdh-blog-components'
 
 import firstLine from '../../data/flip-cards/firstLine.json'
+import { chordSubstitutionMajor9 } from '../../data/flip-cards/music.json'
 import phrase from '../../data/flip-cards/phraseAndGrammars.json'
 import quotes from '../../data/flip-cards/quotes.json'
 import trivia from '../../data/flip-cards/trivia.json'
@@ -15,6 +16,7 @@ import { words2023 } from '../../data/flip-cards/words_2023.json'
 import { RandomiseButton } from '../../fec/Buttons'
 import { StyledContainerForFlipCard } from '../../fec/Space'
 import {
+  CHORD_SUB_MAJ_9,
   FIRST_LINE,
   PHRASES_AND_GRAMMARS,
   QUOTES,
@@ -59,6 +61,9 @@ export const FlipCards = () => {
         {selectedOption === QUOTES && <QuoteCards content={quotes.quotes} />}
         {selectedOption === TRIVIA && (
           <FlipCardsQAndA content={trivia.trivia} />
+        )}
+        {selectedOption === CHORD_SUB_MAJ_9 && (
+          <FlipCardsQAndA content={chordSubstitutionMajor9} />
         )}
         <RandomiseButtonContainer>
           <RandomiseButton onClick={onClickHandler} />

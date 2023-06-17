@@ -4,6 +4,7 @@ export const PHRASES_AND_GRAMMARS = 'Phrases and Grammars'
 export const FIRST_LINE = 'First Line'
 export const QUOTES = 'Quotes'
 export const TRIVIA = 'Trivia'
+export const CHORD_SUB_MAJ_9 = 'Chord Sub Maj 9'
 
 export const OPTIONS = [
   WORDS_2022,
@@ -12,4 +13,5 @@ export const OPTIONS = [
   FIRST_LINE,
   QUOTES,
   TRIVIA,
+  CHORD_SUB_MAJ_9,
 ]

@@ -1,4 +1,5 @@
 import {
+  CHORD_SUB_MAJ_9,
   FIRST_LINE,
   PHRASES_AND_GRAMMARS,
   QUOTES,
@@ -14,3 +15,4 @@ export type SelectOptions =
   | typeof TRIVIA
   | typeof WORDS_2022
   | typeof WORDS_2023
+  | typeof CHORD_SUB_MAJ_9
