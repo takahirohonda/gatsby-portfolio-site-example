@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.16.0...v1.17.0) (2023-06-28)
+
+
+### Features
+
+* **add new vocab:** add new vocab ([635ee03](https://github.com/mydatahack/mydatahack-blog-site-gatsby/commit/635ee036ede732a19214e45abced3080a4a8d3ca))
+
 # [1.16.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.15.0...v1.16.0) (2023-06-16)
 
 
