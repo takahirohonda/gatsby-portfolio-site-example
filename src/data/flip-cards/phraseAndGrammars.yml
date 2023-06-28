@@ -83,3 +83,7 @@ phrasesAndGrammars:
     note: no the in front of shame
   - phrase: play chicken
     note: chicken is not plural
+
+  - phrase: on its last legs
+    note: legs are plural - my car is on its last legs
+  
