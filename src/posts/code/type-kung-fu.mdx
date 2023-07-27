@@ -1,0 +1,48 @@
+---
+date: 2023-04-18
+title: Type Kung Fu
+description: Type Kung Fu
+slug: /code/type-kung-fu
+---
+
+import { PostLayout } from "../../components/PostLayout";
+
+export default ({ children, pageContext }) => (
+  <PostLayout pageContext={pageContext}>{children}</PostLayout>
+);
+
+## Type Kung Fu
+
+### 1. How to have mutually exclusive props.
+
+The use case is  with mutually exclusive to / href / onClick props per A or Button component which will switch the underlying component.
+
+type
+
+```typescript
+type Props = (
+  | { to: string }
+  | { href: string }
+  | { onClick: () => void }
+) & ...OtherButtonProps
+```
+
+```tsx
+import { A } from "design-system"
+
+// render as react-router Link
+<A to="/route">
+
+// render as anchor tag
+<A href="www.myzeller.com/terms">
+import { Button } from "design-system"
+
+// render as Link
+<Button variant="solid" to="/route">
+
+// render as anchor tag
+<Button variant="outline" href="/route">
+
+// render
+<Button variant="ghost" onClick={() => ...}>
+```
