@@ -1,0 +1,88 @@
+---
+date: 2023-04-18
+title: JS Code Snippets
+description: Leaning skills to make art
+slug: /code/snippets-js
+---
+
+import { PostLayout } from "../../components/PostLayout";
+
+export default ({ children, pageContext }) => (
+  <PostLayout pageContext={pageContext}>{children}</PostLayout>
+);
+
+## 1. Grid component for Material UI
+
+I was trying to figure out how the `<Grid>` component calculate the width. It is in `gridGenerator.ts`. It seems to calculate the percentage.
+
+```Javascript
+export const generateGridSizeStyles = ({ theme, ownerState }: Props) => {
+  const getSelfSpacing = createGetSelfSpacing(ownerState);
+  const styles = {};
+  traverseBreakpoints<'auto' | number | true>(
+    theme.breakpoints,
+    ownerState.gridSize,
+    (appendStyle, value) => {
+      let style = {};
+      if (value === true) {
+        style = {
+          flexBasis: 0,
+          flexGrow: 1,
+          maxWidth: '100%',
+        };
+      }
+      if (value === 'auto') {
+        style = {
+          flexBasis: 'auto',
+          flexGrow: 0,
+          flexShrink: 0,
+          maxWidth: 'none',
+          width: 'auto',
+        };
+      }
+      if (typeof value === 'number') {
+        style = {
+          flexGrow: 0,
+          flexBasis: 'auto',
+          width: `calc(100% * ${value} / ${getParentColumns(ownerState)}${
+            isNestedContainer(ownerState) ? ` + ${getSelfSpacing('column')}` : ''
+          })`,
+        };
+      }
+      appendStyle(styles, style);
+    },
+  );
+  return styles;
+};
+```
+
+`lg` (or `md`, `sm`, or `xm`) takes either `GridSize` or `boolean`.
+
+```ts
+export type GridSize = 'auto' | number;
+
+export interface RegularBreakpoints {
+  /**
+   * If a number, it sets the number of columns the grid item uses.
+   * It can't be greater than the total number of columns of the container (12 by default).
+   * If 'auto', the grid item's width matches its content.
+   * If false, the prop is ignored.
+   * If true, the grid item's width grows to use the space available in the grid container.
+   * The value is applied for the `lg` breakpoint and wider screens if not overridden.
+   * @default false
+   */
+  lg?: boolean | GridSize;
+
+...
+```
+
+Table APIs
+
+```tsx
+<Table>
+  <TableRow  /> 
+  <TableRow  />
+  <TableRow  />
+  <TableRow span={{SM: 2, LG: 6}} with="67px"/> -> with: 2/12 %
+</Table>
+```
