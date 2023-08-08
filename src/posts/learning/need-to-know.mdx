@@ -92,3 +92,17 @@ We can destucture an object with selected values and return the rest with a name
   combined: between 800 and 1024px
   <br />
 </details>
+
+## 5. Prefer using nullish coalescing operator (??) instead of a logical or (||)
+<details>
+  <summary>
+    What is '??'? Why is it prefereable to '||'?
+  </summary>
+
+  The nullish coalescing operator ?? allows providing a default value when dealing with null or undefined. It only coalesces when the original value is null or undefined. Therefore, it is safer and shorter than relying upon chaining logical || expressions or testing against null or undefined explicitly.
+  <br />
+  This rule reports when disjunctions (||) and conditionals (?) can be safely replaced with coalescing (??).
+  <br />
+  The TSConfig needs to set strictNullChecks to true for the rule to work properly.
+  <br />
+</details>
