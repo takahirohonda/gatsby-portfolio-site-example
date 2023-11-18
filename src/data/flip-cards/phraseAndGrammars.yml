@@ -89,6 +89,20 @@ phrasesAndGrammars:
 
   # 18 Nov 2023
   - phrase: divvy up
-    note: divvy something up. ​(informal) to divide something, especially money into two or more parts.
-  
-  
+    note: divvy something up. (informal) to divide something, especially money into two or more parts.
+  - phrase: a waste of time, a waste of money
+    note: a in front of waste
+  - phrase: I got a cramp in my leg.
+    note: a in front of cramp. a muscle cramp, a leg cramp
+  - phrase: grow on trees
+    note: trees are plural.
+  - phrase: It's for the record books.
+    note: the is needed in front of record books.
+  - phrase: It was an annoyance of epic proportions, a disaster of epic proportions.
+    note: proportions are plural
+  - phrase: go off on a tangent
+    note: tangent is singular with a.
+  - phrase: give head
+    note: not a head, no article required.
+  - phrase: do the washing
+    note: it needs the, not do washing.
