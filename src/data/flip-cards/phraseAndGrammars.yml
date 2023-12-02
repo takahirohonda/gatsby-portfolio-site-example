@@ -106,3 +106,7 @@ phrasesAndGrammars:
     note: not a head, no article required.
   - phrase: do the washing
     note: it needs the, not do washing.
+  
+  # Dec 2023
+  - phrase: go the extra mile
+  - note: mile is singular.
