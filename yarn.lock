@@ -2179,10 +2179,10 @@
   resolved "https://registry.yarnpkg.com/@lmdb/lmdb-win32-x64/-/lmdb-win32-x64-2.5.3.tgz#c72e8b6faae31d925d23a6db0379cc3fe0216fdd"
   integrity sha512-cK+Elf3RjEzrm3SerAhrFWL5oQAsZSJ/LmjL1joIpTfEP1etJJ9CTRvdaV6XLYAxaEkfdhk/9hOvHLbR9yIhCA==
 
-"@mdhnpm/react-mdh-blog-components@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@mdhnpm/react-mdh-blog-components/-/react-mdh-blog-components-4.0.0.tgz#741ccdd0e4ff139e62e94dec646c4b2f1749254f"
-  integrity sha512-KfqlTT60L9IDNEHOzamhIGa6DRYb5W7yOstc1K6R5oK3jfNWeekXUCB4CdsP/g0MWvI0bWS7yfal8p7yGO60sw==
+"@mdhnpm/react-mdh-blog-components@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@mdhnpm/react-mdh-blog-components/-/react-mdh-blog-components-4.0.1.tgz#87311b05aac26366fd7fd7c680b558aa5f1d5c3f"
+  integrity sha512-6H9YYojB/mnImsuxH3MQ1Ix74nVaVXJ4NTsH4GdpHl6Z5afUe/EufBWzs2SQxV5S+DEk5+H4EtuB5FHE9X1+hw==
   dependencies:
     "@testing-library/react-hooks" "^8.0.1"
     framer-motion "^4.1.17"
