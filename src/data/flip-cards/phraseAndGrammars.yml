@@ -109,4 +109,13 @@ phrasesAndGrammars:
   
   # Dec 2023
   - phrase: go the extra mile
-  - note: mile is singular.
+    note: mile is singular.
+
+  # Feb 2024
+  - phrase: when everything goes to shit
+    note: goes to shit is an idiom
+
+  - phrase: learn the hard way that I needed to do this.... I learned the hard way.
+    note: the hard way
+  - phrase: Take its toll, they take their toll
+    note: toll is plural without s in this context. Toll means the number of casualties.
