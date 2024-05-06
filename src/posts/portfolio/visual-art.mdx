@@ -5,11 +5,24 @@ description: My Visual Art Portfolio
 slug: /portfolio/visual-art
 ---
 
+import { Image1 } from '../../components/Images/Image1'
+
+# Example of adding image file to MDX
+
+`<StaticImage>` cannot be used directly in a mdx file.
+
+The standard way to add image to a md file (such as `![my image]("./img/my-image.jpeg)`) doesn't work either.
+
+```js
 import { StaticImage } from 'gatsby-plugin-image'
 
-
 <StaticImage
-  src="../../images/portfolio/Martina-and-Kimchi.colour_corrected.jpeg"
+  src="./img/martina-kimchi.jpeg"
   alt="Martina and Kimchi"
   placeholder="dominantColor"
 />
+```
+The correct way to use the StaticImage component is to create an component that uses StaticImage and import to the mdx file.
+
+<Image1 />
+

@@ -1,0 +1,81 @@
+---
+date: 2024-05-06
+title: Gatsby Reference
+description: Things I learned from playing with Gatsby
+slug: /gatsby/reference
+---
+
+import { PostLayout } from "../../components/PostLayout";
+
+export default ({ children, pageContext }) => (
+  <PostLayout pageContext={pageContext}>{children}</PostLayout>
+);
+
+# (1) Trouble shoot
+
+1. StaticImage component doesn't work in the mdx file.
+
+No, it just doesn't work. You need to create a tsx component and import it to mdx file.
+
+2. Compilation fails with system error.
+
+Just run `yarn clean`.
+
+```bash
+$ gatsby develop
+⠙ compile gatsby files
+libc++abi: terminating due to uncaught exception of type std::__1::system_error: mutex lock failed: Invalid argument
+error Command failed with signal "SIGABRT".
+```
+
+# (2) Customisation
+
+## Adding tailwind
+
+1. Install dependencies
+
+```bash
+yarn add -D tailwindcss postcss autoprefixer gatsby-plugin-postcss
+npx tailwindcss init -p
+```
+
+2. Enable the Gatsby PostCSS plugin in gatsby-config.js.
+
+```js
+module.exports = {
+  plugins: [
+    'gatsby-plugin-postcss',
+    // ...
+  ],
+}
+```
+
+3. Configure template paths in tailwind.config.js.
+
+```js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/pages/**/*.{js,jsx,ts,tsx}",
+    "./src/components/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+4. Add the tailwind directive to global.css
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+5. Import CSS file in gatsby-browser.js.
+
+```js
+import './src/styles/global.css'
+```
