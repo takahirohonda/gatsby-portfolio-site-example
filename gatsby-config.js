@@ -62,7 +62,7 @@ module.exports = {
             resolve: 'gatsby-remark-prismjs',
             options: {
               classPrefix: 'language-',
-              inlineCodeMarker: `>`,
+              inlineCodeMarker: `>`, // see https://www.gatsbyjs.com/plugins/gatsby-remark-prismjs/
               showLineNumbersGlobal: false,
               noInlineHighlight: false,
             },
