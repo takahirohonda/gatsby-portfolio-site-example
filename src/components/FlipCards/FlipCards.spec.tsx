@@ -41,7 +41,7 @@ describe('<FlipCards />', () => {
     renderFlipCards()
 
     expect(
-      (screen.getByRole('option', { name: WORDS_2022 }) as HTMLOptionElement)
+      (screen.getByRole('option', { name: WORDS_2024 }) as HTMLOptionElement)
         .selected
     ).toBe(true)
 
