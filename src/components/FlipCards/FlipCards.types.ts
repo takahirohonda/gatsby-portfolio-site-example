@@ -6,6 +6,7 @@ import {
   TRIVIA,
   WORDS_2022,
   WORDS_2023,
+  WORDS_2024,
 } from './const'
 
 export type SelectOptions =
@@ -15,4 +16,5 @@ export type SelectOptions =
   | typeof TRIVIA
   | typeof WORDS_2022
   | typeof WORDS_2023
+  | typeof WORDS_2024
   | typeof CHORD_SUB_MAJ_9

@@ -32,7 +32,6 @@ words2023:
     usage: because he is high-ranking, he's surrounded by sycophants
 
 # March 2023
-
   - word: nomenclature
     definition: the body or system of names used in a particular specialist field.
     usage: Private nomenclature seems to develop in tight set-upon circles.
@@ -68,7 +67,6 @@ words2023:
     usage: basinet and bassinet are different words.
 
 # June 2023
-
   - word: periscope
     definition: An optical instrument consisting of a tube holding a system of lenses and mirrors or prisms.
     usage: Instead, what you'll find here is a periscope.
@@ -134,13 +132,11 @@ words2023:
     usage: bore a hole in something with a gimlet.
 
 # Aug 2023 onwards
-
   - word: delineate
     definition: describe precisely
     usage: The law should delineate and prohibit behaviour which is socially abhorrent.
 
 # Added on 18th Nov
-
   - word: prosaic
     definition: having or using the style of diction of prose as opposed to poetry. Lacking imaginativeness or originality.
     usage: They're mostly worried about a more prosaic concern.
@@ -195,3 +191,20 @@ words2023:
   - word: appurtenance
     definition: an accessory or other item associated with a particular activity or style of living.
     usage: The appurtenance of the house.
+
+# Added on 9th June
+  - word: ricochet
+    definition: rebound off a surface
+    usage: Samantha's accusations ricochetted around my head
+  - word: quorum
+    definition: Minimum number of members necessary to constitute the group at a meeting.
+    usage: A general meeting of the Owner Cooperation requires a quorum.
+  - word: brazen
+    definition: very bold
+    usage: They are quite brazen about their sexuality.
+  - word: egregious
+    definition: very bad
+    usage: the most egregious abuses of human rights.
+  - word: prophylactic
+    definition: adj, concerned with preventing disease noun, substance or device to prevent diseases, condom
+    usage: the sound of one prophylactic slapping.

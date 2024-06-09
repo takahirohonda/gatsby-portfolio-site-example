@@ -13,6 +13,7 @@ import quotes from '../../data/flip-cards/quotes.json'
 import trivia from '../../data/flip-cards/trivia.json'
 import { words2022 } from '../../data/flip-cards/words_2022.json'
 import { words2023 } from '../../data/flip-cards/words_2023.json'
+import { words2024 } from '../../data/flip-cards/words_2024.json'
 import { RandomiseButton } from '../../fec/Buttons'
 import { StyledContainerForFlipCard } from '../../fec/Space'
 import {
@@ -23,6 +24,7 @@ import {
   TRIVIA,
   WORDS_2022,
   WORDS_2023,
+  WORDS_2024,
 } from './const'
 import { RandomiseButtonContainer } from './FlipCards.styled'
 import { SelectOptions } from './FlipCards.types'
@@ -31,7 +33,7 @@ import { FlipCardSelect } from './FlipCardSelect'
 export const FlipCards = () => {
   const [reRender, setReRender] = useState(false)
   const [selectedOption, setSelectedOption] =
-    useState<SelectOptions>(WORDS_2022)
+    useState<SelectOptions>(WORDS_2024)
 
   const onClickHandler = () => {
     setReRender(!reRender)
@@ -46,12 +48,16 @@ export const FlipCards = () => {
         />
       </StyledContainerForFlipCard>
       <StyledContainerForFlipCard>
-        {selectedOption === WORDS_2022 && (
-          <FlipCardsVocab content={words2022} />
+        {selectedOption === WORDS_2024 && (
+          <FlipCardsVocab content={words2024} />
         )}
         {selectedOption === WORDS_2023 && (
           <FlipCardsVocab content={words2023} />
         )}
+        {selectedOption === WORDS_2022 && (
+          <FlipCardsVocab content={words2022} />
+        )}
+
         {selectedOption === PHRASES_AND_GRAMMARS && (
           <FlipCardsPhrasesAndGrammars content={phrase.phrasesAndGrammars} />
         )}
