@@ -1,3 +1,11 @@
+## [1.17.1](https://github.com/mydatahack/gatsby-portfolio-site-example/compare/v1.17.0...v1.17.1) (2024-06-09)
+
+
+### Bug Fixes
+
+* update test ([3fde27b](https://github.com/mydatahack/gatsby-portfolio-site-example/commit/3fde27b6551b3592d90afdd087544237d57f73cf))
+* update test ([3797c59](https://github.com/mydatahack/gatsby-portfolio-site-example/commit/3797c592a99ac5ea1a3de267c910d93a42f7a03b))
+
 # [1.17.0](https://github.com/mydatahack/mydatahack-blog-site-gatsby/compare/v1.16.0...v1.17.0) (2023-06-28)
 
 
