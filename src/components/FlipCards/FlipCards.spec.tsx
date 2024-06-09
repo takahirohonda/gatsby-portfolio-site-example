@@ -8,6 +8,7 @@ import {
   QUOTES,
   TRIVIA,
   WORDS_2022,
+  WORDS_2024,
 } from './const'
 import { FlipCards } from './FlipCards'
 
