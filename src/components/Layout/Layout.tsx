@@ -59,10 +59,13 @@ export const Layout = ({
       <GlobalStyles />
       <main>
         <ContentContainer>
+          <div style={{ marginTop: '36px' }} />
           <AnimatedTitle />
+
           <NavContainer>
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
+            <Link to="/current">Current Interest</Link>
             <Link to="/words">Flip Cards</Link>
           </NavContainer>
           <h1>{siteTitle}</h1>
