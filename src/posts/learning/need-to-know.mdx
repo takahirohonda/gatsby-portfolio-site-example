@@ -5,42 +5,43 @@ description: Things we need to know as a dev
 slug: /learning/need-to-know
 ---
 
-import { PostLayout } from "../../components/PostLayout";
+import { PostLayout } from '../../components/PostLayout'
 
 export default ({ children, pageContext }) => (
   <PostLayout pageContext={pageContext}>{children}</PostLayout>
-);
+)
 
 ## 1. Difference between Incoming and Current change when we merge or rebase.
+
 <details>
 <summary>
 1. `git pull origin master`
 </summary>
 
-*Current changes*
+_Current changes_
 
 Changes on your current feature branch.
 
-*Incoming changes*
+_Incoming changes_
 
 Changes you are pulling from i.e the master branch
-</details>
 
+</details>
 
 <details>
 
-<summary>
-2. `git pull origin master --rebase`
-</summary>
-During rebase your feature branch changes are applied on top of the commits that are already there in master branch.
+<summary>2. `git pull origin master --rebase`</summary>
+During rebase your feature branch changes are applied on top of the commits that
+are already there in master branch.
 
-*Current changes*
+_Current changes_
 
 Changes on the master branch.
 
-*Incoming changes*
+_Incoming changes_
 
 Changes on the feature branch.
+
 </details>
 
 ## 2. Falsy values in Javascript
@@ -51,6 +52,7 @@ Changes on the feature branch.
 </summary>
 
 There are 6 falsey values in JavaScript: `undefined`, `null`, `NaN`, `0` and `""` (empty string) and `false`.
+
 </details>
 
 ## 3. Destructuring
@@ -59,19 +61,21 @@ There are 6 falsey values in JavaScript: `undefined`, `null`, `NaN`, `0` and `""
 <summary>
   What is the console output?
 
-  ```JavaScript
-  const context = { a: 1, b: 2, c: 3 };
-  const { a, ...contextObj } = context;
-  console.log(contextObj);
-  ```
+```JavaScript
+const context = { a: 1, b: 2, c: 3 };
+const { a, ...contextObj } = context;
+console.log(contextObj);
+```
 
 </summary>
 
 We can destucture an object with selected values and return the rest with a named object.
 `contextObj` will be `{ b: 2, c: 3 }`
+
 </details>
 
 ## 4. Media Queries
+
 <details>
   <summary>
     What does these media queries mean?
@@ -83,9 +87,11 @@ We can destucture an object with selected values and return the rest with a name
 
     @media only screen and (max-width: 1024px) and (min-width: 800px) { ... }
     ```
+
   </summary>
 
-  max-width: less than or equal to 1024px then do ...
+max-width: less than or equal to 1024px then do ...
+
   <br />
   min-width: greater than or equal to 1024px, then do ...
   <br />
@@ -94,15 +100,31 @@ We can destucture an object with selected values and return the rest with a name
 </details>
 
 ## 5. Prefer using nullish coalescing operator (??) instead of a logical or (||)
+
 <details>
   <summary>
     What is '??'? Why is it prefereable to '||'?
   </summary>
 
-  The nullish coalescing operator ?? allows providing a default value when dealing with null or undefined. It only coalesces when the original value is null or undefined. Therefore, it is safer and shorter than relying upon chaining logical || expressions or testing against null or undefined explicitly.
+The nullish coalescing operator ?? allows providing a default value when dealing with null or undefined. It only coalesces when the original value is null or undefined. Therefore, it is safer and shorter than relying upon chaining logical || expressions or testing against null or undefined explicitly.
+
   <br />
   This rule reports when disjunctions (||) and conditionals (?) can be safely replaced with coalescing (??).
   <br />
   The TSConfig needs to set strictNullChecks to true for the rule to work properly.
+  <br />
+</details>
+
+## 6. Double Negation (!!) and Boolean()
+
+<details>
+  <summary>
+    What's the difference btween `!!` and `Boolean()`? What do they do?
+  </summary>
+  They are functionally equivalent. Both converts a value to a boolean based on its
+  truthiness.
+  <br />
+  All falsy values (null, undefined, 0, NaN, false, and "") will be converted to
+  false. All truthy values to true.
   <br />
 </details>
