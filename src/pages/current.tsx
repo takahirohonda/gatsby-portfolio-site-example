@@ -1,6 +1,6 @@
 import { Layout } from '../components/Layout'
 
-const AboutPage = () => {
+const CurrentPage = () => {
   return (
     <Layout siteTitle="Current Interest">
       <div className="flex flex-col gap-[16px]">
@@ -15,4 +15,4 @@ const AboutPage = () => {
   )
 }
 
-export default AboutPage
+export default CurrentPage
