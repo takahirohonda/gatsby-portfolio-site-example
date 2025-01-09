@@ -8,8 +8,28 @@ slug: /learning/crypto
 ## Good articles to read about crypto
 
 - [How does a blockchain work - Simply Explained](https://www.youtube.com/watch?v=SSo_EIwHSd4)
-- [Ethereum Investment Framework](https://tokenterminal.com/resources/crypto-research/ethereum-investment-framework)
 
-### Latest
+Good intro, but a lot of things are too high level. Not enough explanation in Proof-of-work.
 
-[Solana bull market](https://cryptopragmatist.com/p/heading-solana-bull-market)
+**Block 1 (Genesis Block)**
+Hash: aaa
+Previous Hash: 000 (no hash because this is genesis block)
+
+**Block 2**
+Hash: bbb
+Previous Hash: aaa
+
+**Block 3**
+Hash ccc
+Previous Hash: bbb
+
+- Hash is like a finger print. It's unique.
+- When the new block is created, it validates the previous block.
+- Changing a single block will make all following blocks invalid.
+- We could tamper with a block and recalculate all the hashes of other blocks to make block chain valid.
+- Proof-of-work: A mechanism to slow down the creation of new blocks. Bitcoin takes about 10 minutes to do it.
+- When the block is created, it's sent to other nodes and all the nodes try to validate it.
+  When the consensus is reached, the block is added to the chain.
+- Smart contract is a program stored in blockchain that can be used automatically exchange coins based on certain condition.
+
+- [Create a blockchain with JS](https://www.youtube.com/watch?v=zVqczFZr124)

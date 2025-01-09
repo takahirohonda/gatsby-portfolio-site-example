@@ -70,6 +70,12 @@ const IndexPage: React.FC = () => {
             <a href="https://conf.react.dev/talks">React Conf 2024 Talk</a>
           </li>
         </ol>
+        <h2 className="text-emerald-600">More reading lists</h2>
+        <ol>
+          <li>
+            <a href="/more-reading-list/reading-list">If you need more...</a>
+          </li>
+        </ol>
       </div>
     </Layout>
   )
