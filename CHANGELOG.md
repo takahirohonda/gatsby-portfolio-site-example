@@ -1,3 +1,10 @@
+# [1.18.0](https://github.com/mydatahack/gatsby-portfolio-site-example/compare/v1.17.1...v1.18.0) (2025-01-09)
+
+
+### Features
+
+* update home page ([72d1f5a](https://github.com/mydatahack/gatsby-portfolio-site-example/commit/72d1f5a67d80ac0d3ea0c3bb18fc4b22a9f3e022))
+
 ## [1.17.1](https://github.com/mydatahack/gatsby-portfolio-site-example/compare/v1.17.0...v1.17.1) (2024-06-09)
 
 
