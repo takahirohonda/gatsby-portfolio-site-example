@@ -18,4 +18,4 @@ slug: /more-reading-list/reading-list
 
 ## Watching
 
-[Create a blockchain with JS](https://www.youtube.com/watch?v=zVqczFZr124)
+[Create a blockchain with JS](https://www.youtube.com/watch?v=zVqczFZr124)...
