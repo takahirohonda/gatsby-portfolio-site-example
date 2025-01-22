@@ -1,3 +1,15 @@
+# [1.18.0](https://github.com/mydatahack/gatsby-portfolio-site-example/compare/v1.17.1...v1.18.0) (2025-01-22)
+
+
+### Bug Fixes
+
+* troubleshoot tag already exist error ([f890dcb](https://github.com/mydatahack/gatsby-portfolio-site-example/commit/f890dcb7af90e71bca7b4232c09fde2807b19dbc))
+
+
+### Features
+
+* update home page ([72d1f5a](https://github.com/mydatahack/gatsby-portfolio-site-example/commit/72d1f5a67d80ac0d3ea0c3bb18fc4b22a9f3e022))
+
 # [1.18.0](https://github.com/mydatahack/gatsby-portfolio-site-example/compare/v1.17.1...v1.18.0) (2025-01-09)
 
 
