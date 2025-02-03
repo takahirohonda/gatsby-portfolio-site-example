@@ -6,29 +6,48 @@ const IndexPage: React.FC = () => {
   return (
     <Layout siteTitle="Home">
       <div className="flex flex-col gap-[16px] mt-[24px]">
-        <h2 className="text-rose-600">To Read</h2>
+        <h2 className="text-rose-600">To Read In Japan</h2>
         <ol>
           <li>
-            <a href="https://www.bloomberg.com/features/2025-sam-altman-interview/">
-              Sam Altman Interview
+            <a
+              href="https://javascript.info/garbage-collection"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Garbage Collection in JS
             </a>
           </li>
           <li>
-            <a href="https://reactrouter.com/upgrading/v6">
-              React Router v6 Upgrade Guide
+            <a
+              href="https://javascript.info/proxy"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Proxy and Reflect
             </a>
           </li>
           <li>
-            <a href="https://medium.com/@nomannayeem/react-router-7-the-ultimate-guide-to-the-new-features-and-framework-capabilities-06e7f06981f6">
-              React Router v6 Medium blog
+            <a
+              href="https://javascript.info/task/observable"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Observable - practice
             </a>
           </li>
           <li>
-            <a href="https://dzone.com/articles/why-react-router-7-is-a-game-changer-for-react-devs">
-              React Router v6 DZone blog
+            <a
+              href="https://javascript.info/currying-partials"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Currying
             </a>
           </li>
+        </ol>
 
+        <h2 className="text-purple-600">To Read</h2>
+        <ol>
           <li>
             <a href="https://dionarodrigues.dev/blog/observer-and-pub-sub-patterns-for-reactive-behaviours-in-javascript">
               Observer and pub-sub pattern js
@@ -61,6 +80,26 @@ const IndexPage: React.FC = () => {
           <li>
             <a href="https://clerk.com/docs/how-clerk-works/overview">
               How Clerk works
+            </a>
+          </li>
+          <li>
+            <a href="https://www.bloomberg.com/features/2025-sam-altman-interview/">
+              Sam Altman Interview
+            </a>
+          </li>
+          <li>
+            <a href="https://reactrouter.com/upgrading/v6">
+              React Router v6 Upgrade Guide
+            </a>
+          </li>
+          <li>
+            <a href="https://medium.com/@nomannayeem/react-router-7-the-ultimate-guide-to-the-new-features-and-framework-capabilities-06e7f06981f6">
+              React Router v6 Medium blog
+            </a>
+          </li>
+          <li>
+            <a href="https://dzone.com/articles/why-react-router-7-is-a-game-changer-for-react-devs">
+              React Router v6 DZone blog
             </a>
           </li>
         </ol>

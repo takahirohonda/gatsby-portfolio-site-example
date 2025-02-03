@@ -7,6 +7,7 @@ import {
   WORDS_2022,
   WORDS_2023,
   WORDS_2024,
+  WORDS_2025,
 } from './const'
 
 export type SelectOptions =
@@ -17,4 +18,5 @@ export type SelectOptions =
   | typeof WORDS_2022
   | typeof WORDS_2023
   | typeof WORDS_2024
+  | typeof WORDS_2025
   | typeof CHORD_SUB_MAJ_9
