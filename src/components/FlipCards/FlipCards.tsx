@@ -35,7 +35,7 @@ import { FlipCardSelect } from './FlipCardSelect'
 export const FlipCards = () => {
   const [reRender, setReRender] = useState(false)
   const [selectedOption, setSelectedOption] =
-    useState<SelectOptions>(WORDS_2024)
+    useState<SelectOptions>(WORDS_2025)
 
   const onClickHandler = () => {
     setReRender(!reRender)
